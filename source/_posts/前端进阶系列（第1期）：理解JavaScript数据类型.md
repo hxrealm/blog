@@ -1,3 +1,4 @@
+---
 title: 前端进阶系列（第1期）：理解JavaScript数据类型
 author: Alan Yi
 tags:
@@ -7,25 +8,27 @@ categories:
   - 前端进阶
 date: 2019-01-27 18:31:00
 ---
-### 写在前面
+## 写在前面
 
 前端进阶系列本着“好好干前端”的心态，一步一个脚印认真练好前端的基本功，为在前端的发展道路上做好铺垫。
 
 本周正式开始前端进阶的第1期，本周的主题是``理解JavaScript数据类型``。
 
-### 数据类型
+## 数据类型
 
 最新的 ECMAScript 标准定义了7种数据类型，主要分为两大类``基本类型``和``引用类型``。
 
-#### 基本类型
+### 基本类型
 
 ``基本类型``有时也被称为``值类型``或``原始类型``。其中包括6种数据类型，分别是：``字符串类型（String）``、``数字类型（Number）``、``布尔类型（Boolean）``、``对空类型（Null）``、``未定义类型（Undefined）``、``符号类型（Symbol）``。
 
-**字符串类型**
+### 字符串类型
 
 JavaScript的字符串类型用于表示文本数据。它是一组16位的无符号整数值的“元素”。在字符串中的每个元素占据了字符串的位置。第一个元素的索引为0，下一个是索引1，依此类推。字符串的长度是它的元素的数量。
 
-**数字类型**
+<!--more-->
+
+### 数字类型
 
 根据 ECMAScript 标准，JavaScript 中只有一种数字类型：基于 IEEE 754 标准的双精度 64 位二进制格式的值（-(263 -1) 到 263 -1）。它并没有为整数给出一种特定的类型。除了能够表示浮点数外，还有一些带符号的值：+Infinity，-Infinity 和 NaN (非数值，Not-a-Number)。
 
@@ -39,10 +42,9 @@ Infinity; // 正无穷
 typeof Infinity; // number
 ```
 
-**布尔类型**
+### 布尔类型
 
 布尔表示一个逻辑实体，可以有两个值：true 和 false。
-
 
 ```js
 2 > 1; // true
@@ -53,19 +55,16 @@ null == undefined // true
 typeof true; // boolean
 ```
 
-
-**Null 类型**
+### Null 类型
 
 Null 类型只有一个值： null。
-
 
 ```js
 null === null; // true
 typeof null; // object 为什么不是 null呢？
 ```
 
-
-**Undefined 类型**
+### Undefined 类型
 
 一个没有被赋值的变量会有个默认值 undefined。
 
@@ -78,7 +77,7 @@ undefined == null; // true
 undefined == ''; // false
 ```
 
-**符号类型**
+### 符号类型
 
 符号(Symbols)是ECMAScript 第6版新定义的。符号类型是唯一的并且是不可修改的, 并且也可以用来作为Object的key的值。
 
@@ -99,11 +98,11 @@ console.log(obj.symbol1 + ' ' + obj[symbol1]); // hello world
 
 ```
 
-#### 引用类型
+## 引用类型
 
 ``引用类型``主是指``Object类型``。
 
-**Object 对象**
+### Object 对象
 
 在计算机科学中, 对象是指内存中的可以被 ``标识符``引用的一块区域。
 
@@ -114,27 +113,27 @@ let obj2 = new Object(); // 实例化一个对象
 typeof obj1; // object
 typeof obj2; // object
 
-const person = { author: {name: "布一", "wechat": "Hankewins"}, 1: "No.1" };
+const person = { author: {name: "布一", "wechat": "hxrealm"}, 1: "No.1" };
 
 console.log(person.author.name); // 布一
-console.log(person.author.wechat); // Hankewins
+console.log(person.author.wechat); // hxrealm
 console.log(person[1]); // No.1
 ```
 
-### 类型对比
+## 类型对比
 
-我们都知道JavaScript中有两大数据类型：```基本类型```和```引用类型```，其中```基本类型```主要是把值存储在```栈内存```中，而```引用类型```却是把地址存储在```栈内存```中，把值存储在```堆内存```中，然后将```栈内存```中存储的地址指向```堆内存```中存储的值。
+我们都知道JavaScript中有两大数据类型：`基本类型`和`引用类型`，其中`基本类型`主要是把值存储在`栈内存`中，而`引用类型`却是把地址存储在`栈内存`中，把值存储在`堆内存`中，然后将`栈内存`中存储的地址指向`堆内存`中存储的值。
 
-基本类型 | 数据结构 | 存储位置 
+基本类型 | 数据结构 | 存储位置
 ---|---|---
 基本类型 | 数字、字符串、布尔、Null、Undefined、Symbol | 栈
 引用类型 | 数组、对象、函数 | 栈、堆
 
-#### 什么是堆栈？
+### 什么是堆栈？
 
 堆栈是两种数据结构，是一种数据项按序排列的数据结构，只能在一端进行插入和删除操作。堆为队列优先，先进先出（FIFO）。栈为先进后出（FILO）。
 
-#### 堆和栈有啥区别？
+### 堆和栈有啥区别？
 
 1. 空间分配
 
@@ -151,7 +150,7 @@ console.log(person[1]); // No.1
 - 堆（数据结构）：类似于树结构，可以类比于堆排序
 - 栈（数据结构）：先进后出（FILO）
 
-### 总结
+## 总结
 
 本篇文章内容主要告诉我们以下几个基本知识点：
 
@@ -161,7 +160,7 @@ console.log(person[1]); // No.1
 
 针对第3点我们将在下一章节中重点讲解。
 
-### 参考资料
+## 参考资料
 
 - [JavaScript 数据类型和数据结构
 ](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Data_structures)

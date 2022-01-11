@@ -8,7 +8,7 @@ categories: [工作与生活]
 
 <section>
     <h1>代码发布流程研讨会</h1>
-    <p><small>Created by <a href="http://hankewins.com/">Hankewins</a></small></p>
+    <p><small>Created by <a href="http://hxrealm.com/">hxrealm</a></small></p>
 </section>
 
 <section>

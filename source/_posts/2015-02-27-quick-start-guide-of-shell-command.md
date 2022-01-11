@@ -6,13 +6,13 @@ comments: true
 categories: [引用]
 ---
 
-###快速调用history中的命令
+### 快速调用history中的命令
 
-- Ctrl+R快速搜索history 
+- Ctrl+R快速搜索history
 - Ctrl+P显示上一条命令
 - 快速执行一条history命令：!!/!-number
 
-###快速进入某些目录
+### 快速进入某些目录
 
 - 键入cd～可直接进入用户的home目录；
 - 键入cd－可进入上一个目录。
@@ -20,13 +20,13 @@ categories: [引用]
 - mkdir -p /***/***/***/
 - alias cd3="cd ../../../"
 
-###一次运行多个命令
+### 一次运行多个命令
 
 - 在一个命令行中还可以置入多个命令，用分号将各个命令隔开
 - $last;exit
 - $make && make install
 
-###命令行下快捷键
+### 命令行下快捷键
 
 - Ctrl+a：把光标移到行首。
 - Ctrl+e：把光标移到行尾。
@@ -41,27 +41,27 @@ categories: [引用]
 - Alt + F : 向前移动一个单词。
 - Alt + B : 向后移动一个单词。
 
-###在文件里查找
+### 在文件里查找
 
     grep -rlI '\<main' .
     find -type f -name *.java -exec grep -l '\<main' {} \;
 
-###快速的建立一个文件
+### 快速的建立一个文件
 
     cat >> filename ，输入一些内容然后按Ctrl-d结束输入。
 
-###将文本文件中DOS换行符号转化为UNIX的换行符号
+### 将文本文件中DOS换行符号转化为UNIX的换行符号
 
     tr -s "\r" "\n" <inputfile
     tr -s "\r" "\n" <inputfile >outputfile
 
-###当然你使用vim编辑文件时，vim也提供文件转换功能
+### 当然你使用vim编辑文件时，vim也提供文件转换功能
 
     // 整个文件大小写转换
     tr a-z A-Z < **.txt
     tr A-Z a-z < **.txt
 
-###Shell 脚本
+### Shell 脚本
 
 - $0为程序名称，$1为第一个参数，$2为第二个参数，依次类推，直到$9为第九个参数。
 - 特殊变量$#测试执行脚本时包含的命令行参数个数。
@@ -78,7 +78,7 @@ categories: [引用]
 - 你可以这样使用：
 - alias dstat='dstat -cdlmnpsy'
 
-###vim 命令：
+### vim 命令
 
 - 查找一个字符：fx
 - 重复上次find:  ;
@@ -88,7 +88,7 @@ categories: [引用]
 - b 上一个单词开始字符
 - H M L 目前屏幕的第一行,中间行，最后一行
 - gg G 文件的第一行和最后一行
-- 拷贝到指定寄存器：yt{标识符}   
+- 拷贝到指定寄存器：yt{标识符}
 - Ctrl + r{register}调出寄存器的值
 - 分割窗口：split  vsplit
 - 超级自动补全：ctrl-N
@@ -99,6 +99,5 @@ categories: [引用]
 - 修改标示符的内容：ci{标识符}
 - 删除标志符的内容：di"
 - 删除指定行前的内容：:10,20g/^$/d
-
 
 原文来自：[http://www.cnblogs.com/thinksasa/p/3507714.html](http://www.cnblogs.com/thinksasa/p/3507714.html)

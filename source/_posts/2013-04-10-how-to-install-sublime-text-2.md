@@ -12,11 +12,11 @@ categories: [前端开发]
 
 ``注：ST3版本硬性要求比较高，且与ST2兼容的插件比较少，帮暂不推荐升级。``
 
-###准备工作
+### 准备工作
 
 下载对应版本的ST2:[http://www.sublimetext.com/2](http://www.sublimetext.com/2)
 
-###开始安装
+### 开始安装
 
 在windows环境下双击下载的ST2可执行文件即可安装。
 
@@ -62,74 +62,49 @@ categories: [前端开发]
     Exec=sublime -n
     TargetEnvironment=Unity
 
-###安装ST2 packpage control
+### 安装ST2 packpage control
 
-=> 按Ctrl+`调出console  
+1. 按Ctrl+`调出console  
 
-=> 粘贴以下代码到底部命令行并回车：  
-    
+2. 粘贴以下代码到底部命令行并回车
+
+```text
     import urllib2,os;pf='Package Control.sublime-package';ipp=sublime.installed_packages_path();
     os.makedirs(ipp) if not os.path.exists(ipp) else None;open(os.path.join(ipp,pf),'wb').write(urllib2.
     urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read())
+```
 
 => 重启Sublime Text 2
 
-如果在Perferences->package settings中看到package control这一项，则安装成功或者`Ctrl+Shift+p`调出的面板中搜索`install package`如果存在，则代表安装成功。
+如果在 `Perferences->package settings` 中看到 `package control` 这一项，则安装成功或者 `Ctrl+Shift+p` 调出的面板中搜索 `install package` 如果存在，则代表安装成功。
 
 至此，ST2的安装已全部完成，下面我们要安装业务中所需要的插件。
 
-###安装sublime Text 插件的一般步骤：
+### 安装sublime Text 插件的一般步骤
 
-=> 按住Ctrl+Shift+P  
-=> 在出现的输入框中输入install  
-=> 选择package control:install packpage回车  
-=> 输入需安装的插件名称进行检索 
-=> 选中对应的插件，按回车 
+=> 按住 `Ctrl+Shift+P`
+=> 在出现的输入框中输入 `install`
+=> 选择 `package control:install package` 回车  
+=> 输入需安装的插件名称进行检索
+=> 选中对应的插件，按回车
 => 稍定一会儿，插件正在安装中，注意右下角状态栏会显示正在连接的提示文字  
 
-###前端Team需安装的插件
+### 前端Team需安装的插件
 
-+ 安装compass插件
++ 安装 compass 插件
 
-+ 安装sass插件
++ 安装 sass 插件
 
-+ 安装zendcoding插件
++ 安装 zendcoding 插件
 
-+ 安装YUI Compressor代码压缩插件
++ 安装 YUI Compressor 代码压缩插件
 
-+ 安装Sublime codeIntel代码提示插件
++ 安装 Sublime codeIntel 代码提示插件
 
-+ 安装Alignment代码等号对齐插件
++ 安装 Alignment 代码等号对齐插件
 
-+ 安装GBK Encoding Support插件
++ 安装 GBK Encoding Support 插件
 
-+ 安装DocBlockr插件
++ 安装 DocBlockr 插件
 
 + 安装BracketHighlighter插件
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

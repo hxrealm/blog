@@ -12,72 +12,72 @@ categories: [服务器]
 
 方式一：
 
-```
-$ rpm -q rpm -q centos-release // centos-release-7-2.1511.el7.centos.2.10.x86_64
+```bash
+rpm -q rpm -q centos-release // centos-release-7-2.1511.el7.centos.2.10.x86_64
 ```
 
 方式二：
 
-```
-$ cat /etc/redhat-release // CentOS Linux release 7.2.1511 (Core)
+```bash
+cat /etc/redhat-release // CentOS Linux release 7.2.1511 (Core)
 ```
 
 或
 
-```
-$ cat /etc/centos-release // CentOS Linux release 7.2.1511 (Core)
+```bash
+cat /etc/centos-release // CentOS Linux release 7.2.1511 (Core)
 ```
 
 ### 安装Ruby
 
-```
-$ yum install ruby
-$ ruby -v // ruby 2.0.0p598 (2014-11-13) [x86_64-linux]
-$ gem -v // 2.0.14
+```bash
+yum install ruby
+ruby -v // ruby 2.0.0p598 (2014-11-13) [x86_64-linux]
+gem -v // 2.0.14
 ```
 
 ### 安装Jekyll
 
 通过gem安装Jekyll。因为网络问题需要将国外的镜像替换为国内的镜像（同Windows下的操作相同）
 
-```
-$ gem sources --remove https://rubygems.org/
-$ gem sources --add https://ruby.taobao.org/
-$ gem sources -l // 查看源列表
+```bash
+gem sources --remove https://rubygems.org/
+gem sources --add https://ruby.taobao.org/
+gem sources -l // 查看源列表
 ```
 
 执行命令
 
-```
-$ gem install jekyll
+```bash
+gem install jekyll
 ```
 
 如果出现如下错误
 
-```
+```bash
 mkmf.rb can't find header files for ruby at /usr/share/include/ruby.h
 ```
 
-安装ruby-devel即可解决
+安装 ruby-devel 即可解决
 
-```
-$ yum install ruby-devel
+```bash
+yum install ruby-devel
 ```
 
 如果仍出现编译错误，安装以下依赖
 
-```
-$ yum install libtool automake autoconf gcc-c++ openssl-devel
+```bash
+yum install libtool automake autoconf gcc-c++ openssl-devel
 ```
 
 至此安装成功
 
 ### Jekyll创建博客
 
-```
-$ jekyll new weblog
-$ cd weblog
-$ jekyll serve
+```bash
+jekyll new weblog
+cd weblog
+jekyll serve
 ```
 
 ### 参考资料
@@ -85,7 +85,3 @@ $ jekyll serve
 + [jekyllrb](http://jekyllrb.com/docs/home/)
 + [Jekyll中文](http://jekyll.com.cn/)
 + [RubyGems 镜像](https://ruby.taobao.org/)
-
-
-
-

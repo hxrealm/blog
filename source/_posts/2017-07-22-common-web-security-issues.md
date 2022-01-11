@@ -24,6 +24,8 @@ XSS攻击通常指的是通过利用网页开发时留下的漏洞，通过巧�
 
 防御措施：检查Referer字段、添加校验token
 
+<!--more-->
+
 ## 后端安全
 
 [SQL注入攻击](https://zh.wikipedia.org/wiki/SQL%E8%B3%87%E6%96%99%E9%9A%B1%E7%A2%BC%E6%94%BB%E6%93%8A)

@@ -38,11 +38,11 @@ categories: [工作与生活]
 
 4、IOS中如何彻底禁止用户在新窗口打开页面
 
-=> 有时我们可能需要禁止用户在新窗口打开页面，我们可以使用a标签的target=”_self“来指定用户在新窗口打开，或者target属性保持空，但是你会发现iOS的用户在这个链接的上方长按3秒钟后，iOS会弹出一个列表按钮，用户通过这些按钮仍然可以在新窗口打开页面，这样的话，开发者指定的target属性就失效了，但是可以通过指定当前元素的-webkit-touch-callout样式属性为none来禁止iOS弹出这些按钮。这个技巧仅适用iOS对于Android平台则无效。
+=> 有时我们可能需要禁止用户在新窗口打开页面，我们可以使用a标签的target=”_self“来指定用户在新窗口打开，或者target属性保持空，但是你会发现iOS的用户在这个链接的上方长按3秒钟后，iOS会弹出一个列表按钮，用户通过这些按钮仍然可以在新窗口打开页面，这样的话，开发者指定的target属性就失效了，但是可以通过指定当前元素的-webkit-touch-callout 样式属性为none来禁止iOS弹出这些按钮。这个技巧仅适用iOS对于Android平台则无效。
 
 5、IOS中如何禁止用户保存图片＼复制图片
 
-=> 我们可以为一个img标签指定-webkit-touch-callout为none也会禁止设备弹出列表按钮，这样用户就无法保存＼复制你的图片了。
+=> 我们可以为一个img标签指定-webkit-touch-callout 为none也会禁止设备弹出列表按钮，这样用户就无法保存＼复制你的图片了。
 
 6、IOS中如何禁止用户选中文字(Android同样有效)
 
@@ -80,9 +80,8 @@ categories: [工作与生活]
 
 => 我们推荐采用CSS3,新的长度单位REM(REM是相对长度单位。相对于根元素(即html元素)font-size计算值的倍数)。
 
-/* * 1rem=20px for 320px(中低端分辨率). * 1rem=22.5px for 360px(高端分辨率). */
+/** 1rem=20px for 320px(中低端分辨率). * 1rem = 22.5px for 360px(高端分辨率). */
 
 html{font-size:20px; -webkit-text-size-adjust:none;} @media all and (min-width:359px){.uc-hack{font-size:22.5px;}} @media all and (min-width:359px) and (-webkit-min-device-pixel-ratio:1.5){html{font-size:22.5px;}}
 
 （持续更新......）
-

@@ -1,16 +1,16 @@
 ---
 layout: post
-title: lookitui移动端的通用样式组件库
+title: lookitui 移动端的通用样式组件库
 date: 2013-06-13 19:20
 comments: true
 categories: [前端开发]
 ---
 
-lookitui是一个移动端的通用样式组件库。为了提升协同开发的效果，采用compass扩展插件的方式存在。
+lookitui 是一个移动端的通用样式组件库。为了提升协同开发的效果，采用compass扩展插件的方式存在。
 
 [查看DEMO](/demo/dpl.html)
 
-lookitui的安装
+lookitui 的安装
 
     gem install lookitui --pre
     lookitui的结构
@@ -30,18 +30,19 @@ lookitui的安装
 
 lookitui的引用
 
-    //1.引用所有模块  
-    @import "lookitui/all";
-     
-    //2.引用单一模块  
-    @import "lookitui/form"; //例如：引用表单模块（Form最新版本）
-     
-    //3.引用固定版本的独立模块  
-    @import "lookitui/form/0.1/form"; //例如：引用表单模块（Form最新版本）
- 
+```css
+// 1.引用所有模块  
+@import "lookitui/all";
+    
+// 2.引用单一模块  
+@import "lookitui/form"; // 例如：引用表单模块（Form最新版本）
+    
+// 3.引用固定版本的独立模块  
+@import "lookitui/form/0.1/form"; // 例如：引用表单模块（Form最新版本）
+```
+
 注：引入独立模块是必须先引入lookitui核心模块。
 
 [查看DEMO](/demo/dpl.html)
 
-github访问地址：[http://github.com/hankewins/lookitui/](ttp://github.com/hankewins/lookitui/)
-
+github访问地址：[http://github.com/hxrealm/lookitui/](ttp://github.com/hxrealm/lookitui/)

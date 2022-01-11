@@ -1,11 +1,13 @@
+---
 layout: post
 title: Javascript实现两个超大数字的相加
 comments: true
 categories:
-  - javascript
-  - 面试题
+
+- javascript
+- 面试题
 tags: []
-author: Hankewins
+author: Alan Yi
 date: 2015-08-25 00:00:00
 ---
 两个超大数字相加的实现
@@ -16,18 +18,18 @@ date: 2015-08-25 00:00:00
 
 ```js
 function addTwoNum(str1, str2){
-	var carry = 0, 
+ var carry = 0, 
       l1 = str1.length, 
       l2 = str2.length, 
       arr = [];
     var max = Math.max(l1, l2);
     for (var i = l1 - 1, j = l2 -1, n = max -1 ; n >= 0; n--, i--, j--) {
-    	var sum = (+str1[i] || 0) + (+str2[j] || 0) + carry;
+     var sum = (+str1[i] || 0) + (+str2[j] || 0) + carry;
         if (sum >= 10) {
-        	carry = 1;
+         carry = 1;
             arr.push(sum - 10);
         } else {
-        	carry = 0;
+         carry = 0;
             arr.push(sum);
         }
     }
@@ -39,7 +41,6 @@ function addTwoNum(str1, str2){
 方法二：
 
 ```js
-
 function addTwoNum(str1, str2){
   var arr1 = str1.split('').reverse();
   var arr2 = str2.split('').reverse();

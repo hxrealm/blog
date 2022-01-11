@@ -6,9 +6,9 @@ comments: true
 categories: [水]
 ---
 
-Today is my birthday ! Thank you for your blessing ! 
+Today is my birthday ! Thank you for your blessing !
 
-—— hankewins
+—— Alan Yi
 
 今年特别有意思（幸福）农历和阳历整整相差一个月，刚刚休完国庆假期就陆陆续续迎来了爸爸、我和姐姐的生日。在此一一送上我最美好的祝福。
 
@@ -36,7 +36,4 @@ Today is my birthday ! Thank you for your blessing !
 
 最后
 
-生日快乐！
-
-
-
+生日快乐!

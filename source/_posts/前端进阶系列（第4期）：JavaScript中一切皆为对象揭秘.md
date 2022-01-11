@@ -1,3 +1,4 @@
+---
 title: 前端进阶系列（第4期）：JavaScript中一切皆为对象揭秘
 author: Alan Yi
 tags:
@@ -6,11 +7,11 @@ categories:
   - 前端进阶
 date: 2019-02-15 11:12:00
 ---
-### 写在前面
+## 写在前面
 
 以前在阅读《JavaScript高级语言程序设计》中有提到“在JavaScript中，一切皆为对象”，当时并没有深入理解其真正的含义，现在想想其内含着很大的信息量，下面跟着我一步一步的揭开其神秘的面纱。
 
-### 第一步：类型检测
+## 第一步：类型检测
 
 在JavaScript中通过typeof进行数据类型检测。
 
@@ -31,7 +32,9 @@ console.log(typeof new Number(123)); // object
 
 根据上面代码输出结果可知，除开```基本类型```，typeof输出的其它的都是function和object，即```引用类型```。
 
-### 第二步：函数是对象吗？
+<!--more-->
+
+## 第二步：函数是对象吗？
 
 首先通过instanceof检验一下函数是不是Object的实例。
 
@@ -60,7 +63,7 @@ console.log(func instanceof Object); // true
 
 根据上面代码输出结果可知，```函数 func``` 既是 Function 的实例又是 Object 的实例。
 
-### 第三步：常见的内置对象
+## 第三步：常见的内置对象
 
 其实在JavaScript中有很多的内置对象，例如：Number、String、Boolean、Symbol、Array、Function、RegExp、Object、JSON、Date、Set、Map、Error、Math等等，了解更多请[点击这里](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects)。
 
@@ -91,7 +94,7 @@ console.log(typeof Array); // function
 console.log(typeof arr); // object
 
 // 实例化对象
-const obj = {name: '布一', wechat: 'hankewins'};
+const obj = {name: '布一', wechat: 'hxrealm'};
 console.log(typeof Object); // function
 console.log(typeof obj); // object
 
@@ -115,7 +118,7 @@ console.log(typeof func); // object
 const obj = {
     name: '布一',
     age: 18,
-    wechat: 'Hankewins',
+    wechat: 'hxrealm',
     getName: function() {
         return this.name;
     }
@@ -135,7 +138,7 @@ func.getName = function() {
 }
 ```
 
-### 写在最后
+## 写在最后
 
 总之，在javascript的世界里，一切皆为对象，且对象就是属性的集合。
 
@@ -143,6 +146,6 @@ func.getName = function() {
 
 如果有发现任何问题或者有更好的建议，欢迎直接给我留言。
 
-### 交流
+## 交流
 
-更多精彩内容请关注[https://github.com/hankewins/blog](https://github.com/hankewins/blog),如果你觉得还不错请给个star，非常感谢。
+更多精彩内容请关注[https://github.com/hxrealm/blog](https://github.com/hxrealm/blog),如果你觉得还不错请给个star，非常感谢。

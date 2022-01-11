@@ -60,8 +60,5 @@ categories: [培训与交流]
 
 最后给大家推荐两本书：
 
-- [《小强升职记》](http://baike.baidu.com/view/2274790.htm) -- 邹鑫 
-- [《浪潮之巅》](http://baike.baidu.com/view/2372837.htm) -- 吴军 
-
-
-
+- [《小强升职记》](http://baike.baidu.com/view/2274790.htm) -- 邹鑫
+- [《浪潮之巅》](http://baike.baidu.com/view/2372837.htm) -- 吴军

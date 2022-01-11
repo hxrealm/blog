@@ -6,10 +6,11 @@ comments: true
 categories: [javascript]
 ---
 
-在用HTML5做跨平台应用开发时,尝尝会用到java和js方法互调的问题,对初学者而言,可能会有点难,在这里分享一些自己在实际开发过程中的用法,这里以单点登录的实现方法为例，希望对你有帮助: 
+在用HTML5做跨平台应用开发时,尝尝会用到java和js方法互调的问题,对初学者而言,可能会有点难,在这里分享一些自己在实际开发过程中的用法,这里以单点登录的实现方法为例，希望对你有帮助:
 
-首先是java中实现JS方法并实现主动调用JS中方法: 
-    
+首先是java中实现JS方法并实现主动调用JS中方法:
+
+```javascript
     // Javascript接口类
     public class SingleLoginJSInterface {
 
@@ -101,11 +102,13 @@ categories: [javascript]
         }
 
     }
+```
 
-然后就可以在引用的js文件中直接通过window.SingleLoginJSInterface.login()来直接调用上面的login()方法了. 
+然后就可以在引用的js文件中直接通过window.SingleLoginJSInterface.login()来直接调用上面的login()方法了.
 
 Javascript调用Java中的方法代码封装：
 
+```javascript
     (function(){
         var gnLocalBrowser = {
             singleLogin: {
@@ -191,3 +194,4 @@ Javascript调用Java中的方法代码封装：
         window.GNBrowser = gnLocalBrowser;
 
     })();
+```

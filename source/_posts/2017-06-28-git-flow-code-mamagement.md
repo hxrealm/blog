@@ -20,6 +20,8 @@ Git Flow是构建在Git之上的一个组织软件开发活动的模型，是在
 
 ![Git Flow 流程示意图](http://nvie.com/img/git-model@2x.png)
 
+<!--more-->
+
 ### Git Flow中的分支
 
 主分支

@@ -1,3 +1,4 @@
+---
 title: 前端进阶系列（第2期）：深入理解JavaScript数据类型转换
 author: Alan Yi
 tags:
@@ -8,17 +9,18 @@ categories:
   - 前端进阶
 date: 2019-01-28 21:35:00
 ---
+
 上一期中我们主要是了解了JavaScript中存在两大数据类型：``基本类型``和``引用类型``以及其存储的方式（堆和栈）。
 
 本期我们将重点谈谈JavaScript数据类型转换过程出现的各种“奇葩”的问题。
 
-### 写在前面
+## 写在前面
 
 在JavaScript中当运算符在运算时，如果两边数据不统一，CPU就无法计算，这时我们编译器会自动将运算符两边的数据做一个数据类型转换，转成一样的数据类型再计算，这种无需程序员手动转换，而由编译器自动转换的方式就称为**隐式转换**。
 
 在JavaScript中“一切皆是对象”，在我们具体了解隐式转换前先了解一下对象的两个方法：``toString()``和``valueOf()``。
 
-### toString()
+## toString()
 
 toString() 方法返回一个表示该对象的字符串。
 
@@ -40,8 +42,9 @@ Function.toString() // 'function Function() { [native code] }'
 // 函数转字符串
 (function(){ return 1; }).toString() // 'function () { return 1; }'
 ```
+<!--more-->
 
-### valueOf()
+## valueOf()
 
 valueOf() 方法返回指定对象的原始值。
 
@@ -70,13 +73,13 @@ Function.valueOf() // '[Function: Function]'
 (function func(){ return 1; }).valueOf() // '[Function: func]'
 ```
 
-### 隐式转换规则
+## 隐式转换规则
 
 1. 转成string类型：+（字符串连接符）
 2. 转成number类型：++/--(自增或自减运算符)、+ - * / % (算术运算符)、> < >= <= == != === !== (关系运算符)
 3. 转成boolean类型：！（逻辑非运算符）
 
-### 字符串 VS 加号连接符
+## 字符串 VS 加号连接符
 
 字符串 + 基本类型 = 字符串 + String(基本类型)
 
@@ -122,14 +125,16 @@ console.log(1 + {}) // '1[object Object]'
 // 等同于
 console.log(1 + ({}).toString()) // 1 + '[object Object]'
 ```
+
 数字类型 + 函数 = 数字类型 + String(函数)
+
 ```js
 // 数字 + 函数
 var func = function() { var a = 2; return 2; }
 console.log(1 + func); // 1function () {var a = 2;  return 2;}
 ```
 
-### 关系运算符的隐式转换
+## 关系运算符的隐式转换
 
 规则：将其他数据类型转换成数字类型之后再比较关系
 
@@ -156,7 +161,7 @@ console.log(Number(undefined) == Number(null)) // false NaN == 0
 // https://codeburst.io/javascript-null-vs-undefined-20f955215a2
 ```
 
-### 逻辑非与关系运算符的隐式转换
+## 逻辑非与关系运算符的隐式转换
 
 ```js
 // 数字 vs 数组 = 数字 vs Number(数组)
@@ -179,7 +184,7 @@ console.log({} == !{}); // false
 console.log(Number({}) == Number(!Boolean({}))) // NaN == 0 
 ```
 
-### 引用类型的隐式转换
+## 引用类型的隐式转换
 
 规则：
 
@@ -272,7 +277,7 @@ console.log(10 + '18') // 10 + String(obj2)
 console.log(10 + obj2) // 10 + Number(obj2)
 ```
 
-### 特殊说明
+## 特殊说明
 
 JavaScript中存在几个特殊的原始值：null、undefined、''、0、NaN。
 
@@ -290,7 +295,7 @@ console.log(null != 0) // true
 console.log(undefined != 0) // true
 ```
 
-### 写在最后
+## 写在最后
 
 通过上面对JavaScript中的数据类型的隐式转换可以总结出以下结论：
 

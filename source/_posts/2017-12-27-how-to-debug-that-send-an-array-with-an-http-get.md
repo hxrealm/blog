@@ -12,34 +12,35 @@ categories: [前端开发]
 
 ### 关键要点
 
-- 前后端分离的项目采用了接口代理（requrest、http proxy）
+- 前后端分离的项目采用了接口代理（request、http proxy）
 - Backend接口中定义checked为一个枚举类型 (checked<List>)
 - 前端数据对象中key不要相同，因此只能采用字符串方式
 
 ### 过程分析
 
-
 1、检验GET请求参数值
 
-```
+```text
 通过断点调试查看业务逻辑处理过程中生成的GET请求参数值为checked=1&checked=2&checked=3
 ```
 
+<!--more-->
+
 2、检验接口代理层收到GET请求参数值
 
-```
+```text
 通过断点调试查看接口代理层接收到的GET请求参数值为checked=1&checked=2&checked=3
 ```
 
 3、检验接口代理层发送时GET请求参数值
 
-```
+```text
 通过断点调试查看接口代理层发送时GET请求参数值变为checked[0]=1&checked[1]=2&checked[2]=3
 ```
 
 4、检验后端接收GET请求参数值
 
-```
+```text
 通过与后端联调发现参数接收异常，不能正常解析checked[0]=1&checked[1]=2&checked[2]=3为枚举类型
 ```
 
@@ -54,4 +55,3 @@ categories: [前端开发]
 ### 写在最后
 
 此问题在发现到排查以及最终解决花了不少时间，其实主要还是前端和后端人员对HTTP协议过程中数据传递的原理理解不同，如果大家能达成一致，快速给出应对方案，此问题将非常容易处理。
-

@@ -18,7 +18,7 @@ MarkdownPad
 MdCharm
 相比ST2与MarkdownPad来讲，MdCharm是我个人比较喜爱的一款Markdown编辑器，不仅启动速度快、语法高亮的颜色以及渲染的文档都不错，所以在写Blog的时候使用非常的方便。
 
-由于开发环境切换到Ubuntu后,一般都是使用gedit和vim进行文件的查看与编写，所以在此记录vim下配置markdown以及markdown to wordpress。
+由于开发环境切换到Ubuntu后,一般都是使用 gedit 和 vim 进行文件的查看与编写，所以在此记录vim下配置markdown以及markdown to wordpress。
 
 Markdown in ubuntu
 在这里我也不需要重复造轮子，可以查看以下链接：

@@ -8,11 +8,11 @@ categories: [前端开发]
 
 LazyMan是一道javascript面试题，第一次听说LazyMan一词是与[ing70](http://www.ing70.com/)聊天中获得，本文主要是说说自己的实现思路和方法。
 
-### 题目如下：
+### 题目如下
 
 实现一个LazyMan，可以按照以下方式调用:
 
-```
+```javascript
 LazyMan("Hank")输出:
 Hi! This is Hank!
 
@@ -40,6 +40,8 @@ Eat supper
 
 根据经验猜测此题可参考jQuery中[delay()](http://api.jquery.com/delay/)、PHP中[sleep()](http://www.php.net/manual/en/function.sleep.php)、[Express](http://www.expressjs.com.cn/4x/api.html)中next()中间件等方法的实现原理。也是典型的JavaScript流程控制，因此问题的关键是如何实现任务的顺序执行。
 
+<!--more-->
+
 考查关键
 
 - 链式调用
@@ -50,7 +52,7 @@ Eat supper
 
 ### 代码实现
 
-```
+```javascript
 (function(){
     function LazyMan(name){
         var that = this;
@@ -115,8 +117,5 @@ Eat supper
 
 请打开console控制台，查看运行结果。
 
-<p data-height="265" data-theme-id="0" data-slug-hash="pwrrjY" data-default-tab="js" data-user="hankewins" data-embed-version="2" data-pen-title="pwrrjY" class="codepen">See the Pen <a href="https://codepen.io/hankewins/pen/pwrrjY/">pwrrjY</a> by hankewins (<a href="https://codepen.io/hankewins">@hankewins</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<p data-height="265" data-theme-id="0" data-slug-hash="pwrrjY" data-default-tab="js" data-user="hxrealm" data-embed-version="2" data-pen-title="pwrrjY" class="codepen">See the Pen <a href="https://codepen.io/hxrealm/pen/pwrrjY/">pwrrjY</a> by hxrealm (<a href="https://codepen.io/hxrealm">@hxrealm</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-
-
-

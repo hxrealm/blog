@@ -6,7 +6,7 @@ comments: true
 categories: [前端开发]
 ---
 
-自从写第一个Node [Microblog](https://github.com/hankewins/microblog) web应用到现在也很长时间了，虽然后面也写了几个Node小工具，但是一直都是基于本地环境。虽然之前也有尝试在SAE、NAE(已停止维护)、BAE上部署Node应用程序，但由于种种原因，最终也只是一个尝试，没有成功部署，在此还是推荐几家PaaS平台：
+自从写第一个Node [Microblog](https://github.com/hxrealm/microblog) web应用到现在也很长时间了，虽然后面也写了几个Node小工具，但是一直都是基于本地环境。虽然之前也有尝试在SAE、NAE(已停止维护)、BAE上部署Node应用程序，但由于种种原因，最终也只是一个尝试，没有成功部署，在此还是推荐几家PaaS平台：
 
 - [Heroku](https://www.heroku.com/)(信赖Git+Foreman)
 - [Cloud Foundry](http://www.cloudfoundry.com/)(依赖vmc+ruby+rubyGems)
@@ -17,19 +17,19 @@ categories: [前端开发]
 
 Heroku部署Node.js应用程序的步骤如下：
 
-1.访问 https://id.heroku.com/signup/www-header ，网站会要求用户输入电子邮件地址。
+1.访问 <https://id.heroku.com/signup/www-header> ，网站会要求用户输入电子邮件地址。
 
 2.Heroku注册，一旦成功输入电子邮件地址，网站会邀请你检查邮件，邮件中有确认链接。
 
 3.打开电子邮件，进入所提供的Heroku链接，点击链接会邀请你输入密码。
 
-4.按照 https://devcenter.heroku.com/articles/getting-started-with-nodejs 中的指南，首先安装Heroku工具条。它提供了能让我们将站点部署到Heroku的命令行工具。
+4.按照 <https://devcenter.heroku.com/articles/getting-started-with-nodejs> 中的指南，首先安装Heroku工具条。它提供了能让我们将站点部署到Heroku的命令行工具。
 
-5.访问 https://toolbelt.heroku.com/ ，选择适用于自己平台的安装方式，这里我选择的是 Debian/Ubuntu。
+5.访问 <https://toolbelt.heroku.com/> ，选择适用于自己平台的安装方式，这里我选择的是 Debian/Ubuntu。
 
 安装Heroku命令行工具
 
-6.Heroku toolbelt安装完成后，现在就可以登录账号，在命令行模式下输入
+6.Heroku toolbelt 安装完成后，现在就可以登录账号，在命令行模式下输入
 
     $ heroku login
     //输入heroku注册的账号信息
@@ -43,7 +43,7 @@ Heroku部署Node.js应用程序的步骤如下：
     Generating new SSH public key.
     Uploading ssh public key ~/.ssh/id_rsa.pub
 
-7.至此，Heroku环境配置己完成，可以准备部署到Heroku服务器啦！
+7.至此，Heroku 环境配置己完成，可以准备部署到Heroku服务器啦！
 
 8.检查程序入口文件中服务器端口设置是否正确。
 
@@ -79,7 +79,7 @@ Heroku部署Node.js应用程序的步骤如下：
     $ heroku create nodetest --stack ceder //在heroku中建立nodetest应用
     $ git push heroku master //提交应用程序到heroku的master主干
 
-11.如果一切正常，可以通过Heroku分配的二级域名访问应用程序，例如 http://nodetest.herokuapp.com
+11.如果一切正常，可以通过Heroku分配的二级域名访问应用程序，例如 <http://nodetest.herokuapp.com>
 12.Heroku支持自定义域名绑定，操作如下：
 
     //在以有的域名中添加子域名并指定DNS为Heroku分配的二级域名
@@ -95,13 +95,10 @@ Heroku部署Node.js应用程序的步骤如下：
     //通过命令行打开并访问应用程序
     $ heroku open
 
-### 参考文档：
+### 参考文档
 
 - [http://blog.sina.com.cn/s/blog_6d0cbb0301019jor.html](http://blog.sina.com.cn/s/blog_6d0cbb0301019jor.html)
 - [http://blog.longwin.com.tw/2011/04/ssh-failure-sign-key-2011/](http://blog.longwin.com.tw/2011/04/ssh-failure-sign-key-2011/)
 - [http://blog.csdn.net/ithomer/article/details/7529022](http://blog.csdn.net/ithomer/article/details/7529022)
 - [http://www.2cto.com/kf/201201/116097.html](http://www.2cto.com/kf/201201/116097.html)
 - [http://ux.etao.com/posts/799](http://ux.etao.com/posts/799)
-
-表达不清楚或者不正确的地方，请与我联系hankewins#gmail.com。
-

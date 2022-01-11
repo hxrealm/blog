@@ -8,6 +8,7 @@ categories: [Node开发]
 
 在学习Node开发过程中，经常运行程序（node app.js）时提示端口被占用，信息如下：
 
+```js
     node app.js
     events.js:141
           throw er; // Unhandled 'error' event
@@ -18,11 +19,12 @@ categories: [Node开发]
         at Server._listen2 (net.js:1236:14)
         at listen (net.js:1272:10)
         at Server.listen (net.js:1368:5)
-        at EventEmitter.listen (/Users/hankewins/www/node_pro/node-test/node_modules/express/lib/application.js:617:24)
-        at Object.<anonymous> (/Users/hankewins/www/node_pro/node-test/app.js:15:5)
+        at EventEmitter.listen (/Users/hxrealm/www/node_pro/node-test/node_modules/express/lib/application.js:617:24)
+        at Object.<anonymous> (/Users/hxrealm/www/node_pro/node-test/app.js:15:5)
         at Module._compile (module.js:409:26)
         at Object.Module._extensions..js (module.js:416:10)
         at Module.load (module.js:343:32)
+```
 
 此类情况在主要出现在*unix系统下，程序退出时对应的进程未结束，请注意以下几种操作下：
 
@@ -51,5 +53,3 @@ categories: [Node开发]
 
 - [cnode上node运行时端口被占用问题的讨论](https://cnodejs.org/topic/560a5fdb148959375f34ffda)
 - [Express官方推荐的进程管理器](http://expressjs.com/en/advanced/pm.html)
-
-

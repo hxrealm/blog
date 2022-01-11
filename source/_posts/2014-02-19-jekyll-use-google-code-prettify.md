@@ -6,7 +6,7 @@ comments: true
 categories: [工作与生活]
 ---
 
-之前使用wordpress时，一直都是用的SyntaxHIghlighter代码高亮的工具，虽然SyntaxHIghlighter的代码高亮显示的很漂亮，无奈加载太慢，且对markdown写的文章支持的还不是很好，只能舍弃了。现在用的这个是google-code-prettfy，效果也相当不错。最重要的是，非常小，加载速度比SyntaxHighlighter快得多，而且，可以直接使用markdown的语法去写代码。
+之前使用wordpress时，一直都是用的 SyntaxHIghlighter 代码高亮的工具，虽然SyntaxHIghlighter 的代码高亮显示的很漂亮，无奈加载太慢，且对markdown写的文章支持的还不是很好，只能舍弃了。现在用的这个是google-code-prettfy，效果也相当不错。最重要的是，非常小，加载速度比SyntaxHighlighter快得多，而且，可以直接使用markdown的语法去写代码。
 
 准备工作
 Google Code Prettify下载
@@ -22,14 +22,16 @@ Google Code Prettify下载
 第二步：高亮代码块
 添加以下代码，用于识别并高亮代码块
 
-    <script type="text/javascript">
-        // 需要引入jQuery
-        $(document).ready(function() {
-            $('pre').addClass('prettyprint linenums').attr('style', 'overflow:auto');
-            prettyPrint();
-        });
-    </script>
-    
+```javascript
+<script type="text/javascript">
+    // 需要引入jQuery
+    $(document).ready(function() {
+        $('pre').addClass('prettyprint linenums').attr('style', 'overflow:auto');
+        prettyPrint();
+    });
+</script>
+```
+
 第三步：显示全部行号
 默认prettify只显示行号5,10,15...,可以给pre标签下的li设置以下样式
 

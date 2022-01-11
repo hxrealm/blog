@@ -36,6 +36,8 @@ defer的含义【摘自[https://developer.mozilla.org/zh-CN/docs/Web/HTML/Elemen
 
 ![js-with-async](/demo/pic/js-with-async.png)
 
+<!--more-->
+
 ### defer
 
 对于defer，估计“时尚”的前端小同伴可能已经不在使用喽，这个功能还未被所有主流浏览器支持，早期主要是IE内核版本支持，[查看详细](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/script)b了解更多。在这里defer是早期script标签中的属性，它的作用是延迟执行脚本直到文档解析完毕后才执行。下面让我们一起先看看两个demo:

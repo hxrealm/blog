@@ -27,7 +27,7 @@ categories: [前端开发]
 
 - 控制台中查看Promise真身
 
-```
+```js
 console.log(Promise)
 ```
 
@@ -35,7 +35,7 @@ console.log(Promise)
 
 - 实例化一个Promise对象
 
-```
+```js
 var p1 = new Promise(function(resolve, reject){
     //做一些异步操作
     setTimeout(function(){
@@ -44,6 +44,8 @@ var p1 = new Promise(function(resolve, reject){
     }, 1000);
 });
 ```
+
+<!--more-->
 
 可知：Promise的构造函数接受一个executor参数，executor是一个带有resolve和reject两个参数的函数。executor 函数在Promise构造函数执行时同步执行，被传递resolve和reject函数（executor 函数在Promise构造函数返回新建对象前被调用）。resolve 和 reject 函数被调用时，分别将promise的状态改为fulfilled(完成)或rejected（失败）。executor 内部通常会执行一些异步操作，一旦完成，可以调用resolve函数来将promise状态改成fulfilled，或者在发生错误时将它的状态改为rejected。
 如果在executor函数中抛出一个错误，那么该promise 状态为rejected。executor函数的返回值被忽略。
@@ -56,7 +58,7 @@ var p1 = new Promise(function(resolve, reject){
 
 如何调用then() 方法？
 
-```
+```js
 p1.then(function(data){
     // resolve状态
     console.log(data); // 异步中传递数据
@@ -69,12 +71,11 @@ p1.then(function(data){
 
 - catch() 方法的使用
 
-
 catch() 方法返回一个Promise，只处理拒绝的情况。它的行为与调用Promise.prototype.then(undefined, onRejected) 相同。但catch() 方法可以捕获异常错误，因此catch() 方法主要用做捕获抛出的错误。
 
 如何调用catch() 方法呢？
 
-```
+```js
 p1.catch(function(reason){
     // 拒绝
 })
@@ -86,7 +87,7 @@ p1.catch(function(reason){
 
 使用链式语句的 catch方法
 
-```
+```js
 var p1 = new Promise(function(resolve, reject) {
     resolve('Success');
 });
@@ -117,7 +118,7 @@ p1.then(function(value) {
 
 捕获抛出的错误
 
-```
+```js
 // 抛出一个错误，大多数时候将调用catch方法
 var p1 = new Promise(function(resolve, reject) {
     throw 'Uh-oh!';
@@ -132,7 +133,7 @@ p1.catch(function(e) {
 
 Promise.all(iterable) 方法提供了并行执行异步操作的能力，当所有在可迭代参数中的 promises 已完成，或者第一个传递的 promise（指 reject）失败时，返回 promise。
 
-```
+```js
 var p1 = new Promise(function(resolve, reject){
     // 异步操作
     setTimeout(function(){
@@ -172,7 +173,7 @@ Promise.all([p1, p2, p3]).catch(function(values){
 
 race 函数返回一个 Promise，它将与第一个传递的 promise 相同的完成方式被完成。它可以是完成（ resolves），也可以是失败（rejects），这要取决于第一个完成的方式是两个中的哪个。
 
-```
+```js
 var p1 = new Promise(function(resolve, reject) { 
     setTimeout(resolve, 500, "one"); 
 });
@@ -190,7 +191,7 @@ Promise.race([p1, p2]).then(function(value) {
 
 静态函数Promise.reject返回一个被拒绝的Promise。使用是Error实例的reason对调试和选择性错误捕捉很有帮助。
 
-```
+```js
 Promise.reject("Testing static reject").then(function(reason) {
   // 未被调用
 }, function(reason) {
@@ -203,13 +204,14 @@ Promise.reject(new Error("fail")).then(function(error) {
   console.log(error); // 堆栈跟踪
 });
 ```
+
 - resolve() 方法的使用
 
 Promise.resolve(value)方法返回一个以给定值解析后的Promise对象。但如果这个值是个thenable（即带有then方法），返回的promise会“跟随”这个thenable的对象，采用它的最终状态（指resolved/rejected/pending/settled）；否则以该值为成功状态返回promise对象。
 
 使用静态方法Promise.resolve
 
-```
+```js
 Promise.resolve("Success").then(function(value) {
   console.log(value); // "Success"
 }, function(value) {
@@ -219,7 +221,7 @@ Promise.resolve("Success").then(function(value) {
 
 对一个数组进行resolve
 
-```
+```js
 var p = Promise.resolve([1,2,3]);
 p.then(function(v) {
   console.log(v[0]); // 1
@@ -228,7 +230,7 @@ p.then(function(v) {
 
 Resolve另一个promise对象
 
-```
+```js
 var original = Promise.resolve(true);
 var cast = Promise.resolve(original);
 cast.then(function(v) {
@@ -238,7 +240,7 @@ cast.then(function(v) {
 
 resolve thenable的对象们并抛出错误
 
-```
+```js
 // Resolve一个thenable对象
 var p1 = Promise.resolve({ 
   then: function(onFulfill, onReject) { onFulfill("fulfilled!"); }

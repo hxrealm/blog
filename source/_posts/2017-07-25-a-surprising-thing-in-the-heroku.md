@@ -6,7 +6,7 @@ comments: true
 categories: [水]
 ---
 
-今天在[新网](http://www.xinnet.com/)中更新个人域名DNS解析时，无意中发现四年前上传到[Heroku](https://www.heroku.com/)云平台上的基于Node开发的[个人博客](http://node.hankewins.com/)（旧版）仍在正常运行，WoW，真是一件令人高兴的事情。
+今天在[新网](http://www.xinnet.com/)中更新个人域名DNS解析时，无意中发现四年前上传到[Heroku](https://www.heroku.com/)云平台上的基于Node开发的[个人博客](http://node.hxrealm.com/)（旧版）仍在正常运行，WoW，真是一件令人高兴的事情。
 
 ## Heroku是什么
 
@@ -28,4 +28,3 @@ Heroku官方在线文档很完善，推荐大家直接在线阅读[传送门](ht
 早期我主要用过新浪云、百度云、阿里云部署过Node小应用程序，从体验角度来讲的话，阿里云的兼容性和可操作性较好，但每个平台都有各自的特点，大家可根据自身要求进行选择。
 
 最后，大家有任何问题，欢迎共同交流。
-

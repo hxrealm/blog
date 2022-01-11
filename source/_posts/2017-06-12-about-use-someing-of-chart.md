@@ -1,6 +1,6 @@
 ---
 layout: post
-title: chartjs在项目应用中的一些总结
+title: chartjs 在项目应用中的一些总结
 date: 2017-06-12 22:30
 comments: true
 categories: [前端开发]
@@ -47,6 +47,8 @@ options: {
 	}
 }
 ```
+
+<!--more-->
 
 3、 如何隐藏对应坐标线以及设置对应坐标线为虚线？
 

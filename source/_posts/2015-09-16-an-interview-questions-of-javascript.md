@@ -8,10 +8,11 @@ categories: [javascript]
 
 最近一直在负责团队内部前端人员的招聘，前前后后估计也面试了二十几号人，由来自知名互联网、外包公司、非计算机专业、高中毕业生等等。本次不再过多的讨论前端人员面试面经，后面如果有时间的话会针对近期前端招聘详细的分析和总结。这里选取一道笔试题在笔试结果后引发的思考。
 
-##Javascript面试题
+## Javascript面试题
 
 题目：实现一个URI解析方法，把url里#之后的参数解析成指定的数据结构。
-    
+
+```javascript
     function urlParser(s){
         // 答题部分，写出你的代码...
     }
@@ -31,8 +32,11 @@ categories: [javascript]
     } catch(e){
         console.error('执行出错，错误信息：'+e);
     }
+```
 
 这道笔试题第一眼看上去比较简单，大部分同学的直接反应就是采用字符串分割N次，转换成数组即可。在我的印象中到目前为止，还没有一位同学写出完整的代码。大部分笔试结果如下：
+
+<!--more-->
 
 1. 对#,?,&,=,/特殊符号进行分割转换成数组，然后再处理（很少部分能写出来）
 2. 对?进行判断，然后进行分割
@@ -44,7 +48,7 @@ categories: [javascript]
 
 这道题目主要是考查对``Javascript基本知识``、``字符串相关操作``、``数组相关操作``、``JSON字符串``、``正则表达式的应用``等知识点的掌握程度。
 
-##引发的思考
+## 引发的思考
 
 通过前面各种笔试的结果分析可以得到以下几大方面的要点：
 
@@ -65,7 +69,6 @@ categories: [javascript]
 2. 反复阅读优化的代码并理解其原理
 3. 勤动手，多思考
 
-
 => 工作年限和工作能力的关系？
 
 如果工作年限和工作能力是正比，那么你自身的价值会越来越高。否则工作5年和工作2年没有什么区别，需自我反思，认清自己，努力提升自己。
@@ -74,12 +77,13 @@ categories: [javascript]
 
 在这里我觉得有很多的问题需要自我思考、认清自己、改掉坏习惯、提升自己基础能力。
 
-##附个人答案
+## 附个人答案
 
 以下是我个人对本题给出的答案，若有误之处，望批评指正！同时也欢迎大家讨论并给出更好的答案。
 
 方法一：字符串分割成数组
 
+```javascript
     function urlParser1(s){
         // 方法一
         var arr = [], obj = {}, strl, strr, hash;
@@ -105,9 +109,11 @@ categories: [javascript]
         // 转换成字符串JSON数组
         return JSON.stringify(arr);
     }
+```
 
 方法二：正则匹配
 
+```javascript
     function urlParser(s){
         var arr = [], reg, hash, obj = {}, tmp;
         // 获取#之后的字符串
@@ -129,11 +135,10 @@ categories: [javascript]
         // 转换成字符串JSON数组
         return JSON.stringify(arr);
     }
+```
 
-##推荐学习资料
+## 推荐学习资料
 
 - [Javascript教程](http://www.w3school.com.cn/js/index.asp)
 - [Javascript高级程序设计第3版](http://book.douban.com/subject/10546125/)
 - [正则表达式速查表](http://www.jb51.net/shouce/jquery1.82/regexp.html)
-    
-

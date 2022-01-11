@@ -1,6 +1,6 @@
 ---
 layout: post
-title: antd本地部署iconfont正确步骤
+title: antd 本地部署iconfont正确步骤
 date: 2017-03-24 22:48
 comments: true
 categories: [前端开发]
@@ -22,7 +22,7 @@ Ant Design 默认的 iconfont 文件托管在 [iconfont.cn](http://iconfont.cn/)
 
 二、部署iconfont服务
 
-通过搭建本地服务器提供iconfont访问地址，例如：http://localhost/iconfont
+通过搭建本地服务器提供iconfont访问地址，例如：<http://localhost/iconfont>
 
 三、配置@icon-url地址
 
@@ -30,8 +30,7 @@ Ant Design 默认的 iconfont 文件托管在 [iconfont.cn](http://iconfont.cn/)
 
 2、通过引用theme.js的方式自定义主题，配置方式同1
 
-
-```
+```css
 // 注意：@icon-font地址为字符串，且后面一个iconfont为字体文件名（不需要后缀），地址字符串需要在双引号内
 '@icon-url': '"http://localhost/iconfont/iconfont"' 
 ```
