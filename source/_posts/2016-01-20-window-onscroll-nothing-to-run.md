@@ -26,7 +26,8 @@ categories: [javascript]
 最终对样式表进行排查发现当页面最外层元素采用(``position:absolute; left:0; right:0; top:0; bottom:0; width:100%;``)时且设置样式(``overflow:hidden; overflow-x:hidden;``)，chrome浏览器window.onscroll会失效，safari浏览器下却可以正常执行。
 
 测试浏览器UA信息如下：
-```
+
+```text
     // chrome 48.0.2564.97 window.onscroll失效
     Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36
 

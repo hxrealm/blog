@@ -6,7 +6,7 @@ comments: true
 categories: [前端开发]
 ---
 
-![伦敦塔楼](http://cdn.hxrealm.com/uploads/blog/images/36c76caeee6e4ca01d7c6eb51a2cdd92.jpg)
+![伦敦塔楼](/uploads/blog/images/36c76caeee6e4ca01d7c6eb51a2cdd92.jpg)
 
 中国是桥的故乡，自古就有“桥的国度”之称,发展于隋,兴盛于宋。遍布在神州大地的桥、编织成四通八达的交通网络，连接着祖国的四面八方。
 

@@ -19,7 +19,7 @@ date: 2018-11-13 16:45:00
 
 科学上网必备，你懂得，而且也很方便进行代理相关的配置。
 
-![科学上网](http://cdn.hxrealm.com/uploads/blog/images/chrome-switchy-omega-plugin-01.png)
+![科学上网](/uploads/blog/images/chrome-switchy-omega-plugin-01.png)
 
 传送门
 
@@ -29,7 +29,7 @@ date: 2018-11-13 16:45:00
 
 Adblock Plus是一款非常出色的chrome广告屏蔽插件，可以帮助用户屏蔽在浏览网页时的各种烦人广告。
 
-![有我世界很美好](http://cdn.hxrealm.com/uploads/blog/images/chrome-adblock-plus-plugin-01.png)
+![有我世界很美好](/uploads/blog/images/chrome-adblock-plus-plugin-01.png)
 
 <!--more-->
 
@@ -42,7 +42,7 @@ Adblock Plus是一款非常出色的chrome广告屏蔽插件，可以帮助用�
 
 保护眼睛的一款好插件，修改网页背景色为豆沙绿，更加护眼，随时开启/关闭。
 
-![豆沙绿](http://cdn.hxrealm.com/uploads/blog/images/chrome-eyecare-assistant-plugin-01.png)
+![豆沙绿](/uploads/blog/images/chrome-eyecare-assistant-plugin-01.png)
 
 传送门
 
@@ -52,11 +52,11 @@ Adblock Plus是一款非常出色的chrome广告屏蔽插件，可以帮助用�
 
 在同事的电脑上看到它的第一眼就被深深的吸引了，太TM的炫酷了。用它我们可以创建一个炫酷的新标签页，高清背景图+TODO，绝对美观+实用。不信我们来看看？
 
-![Momentum我的最爱](http://cdn.hxrealm.com/uploads/blog/images/chrome-momentum-plugin-01.png)
+![Momentum我的最爱](/uploads/blog/images/chrome-momentum-plugin-01.png)
 
 你的 chrome 打开是这样子的
 
-![原来的老样子](http://cdn.hxrealm.com/uploads/blog/images/chrome-momentum-plugin-02.png)
+![原来的老样子](/uploads/blog/images/chrome-momentum-plugin-02.png)
 
 酷不酷我就不说了，你们自己觉得，关键是每一天都不一样，而且还可以添加 todoList 更多功能你们可以自行探索，因为下面还有更重要的推荐给你们，这才是刚开始，你们就激动的不行了。
 
@@ -70,11 +70,11 @@ Adblock Plus是一款非常出色的chrome广告屏蔽插件，可以帮助用�
 
 OneTab 这个插件绝对牛逼，对我们技术人员来讲真是犹如神助啊，我们在工作中难免在开发的过程中查阅资料，打开很多标签页但是又舍不得关闭，最主要的是浏览器的标签页打开了来以后不仅影响我们查找，还非常占用电脑的内存，使我们的电脑非常卡。
 
-![痛苦的多标签](http://cdn.hxrealm.com/uploads/blog/images/chrome-one-tab-plugin-01.png)
+![痛苦的多标签](/uploads/blog/images/chrome-one-tab-plugin-01.png)
 
 有了 OneTab 这些根本就不是问题了，它可以帮你把所有标签页都收集到一个标签里，而且还能释放我们的内存，当我们需要的时候可以单独或全部恢复它们。就是这么简单，粗暴。
 
-![OneTab牛逼](http://cdn.hxrealm.com/uploads/blog/images/chrome-one-tab-plugin-02.png)
+![OneTab牛逼](/uploads/blog/images/chrome-one-tab-plugin-02.png)
 
 传送门
 
@@ -85,7 +85,7 @@ OneTab 这个插件绝对牛逼，对我们技术人员来讲真是犹如神助�
 
 这款插件也非常的实用，可以让打开的某个标签页进行冻结也可以设定一个时长让标签自动冻结，这样就可以很方便的控制那些暂时用不到的Tab标签页，达到系统资源释放，你有没有GET到点，是不是很棒。
 
-![让你冻结^_^](http://cdn.hxrealm.com/uploads/blog/images/chrome-the-great-suspender-plugin-01.png)
+![让你冻结^_^](/uploads/blog/images/chrome-the-great-suspender-plugin-01.png)
 
 - [The Great Suspender插件](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg?hl=zh-CN)
 
@@ -102,7 +102,7 @@ OneTab 这个插件绝对牛逼，对我们技术人员来讲真是犹如神助�
 
 这个插件绝对是程序员专属了，它可以让我们 Github 的贡献图变成 3D 效果，非常适合用来装逼有没有，是不是很高大上。
 
-![isometric-contributions-plugin](http://cdn.hxrealm.com/uploads/blog/images/chrome-isometric-contributions-plugin.jpg)
+![isometric-contributions-plugin](/uploads/blog/images/chrome-isometric-contributions-plugin.jpg)
 
 传送门
 
@@ -112,7 +112,7 @@ OneTab 这个插件绝对牛逼，对我们技术人员来讲真是犹如神助�
 
 一直在使用的一款JSON格式化插件，项目联调开发过程中查看api接口时非常好用。
 
-![json-view-plugin](http://cdn.hxrealm.com/uploads/blog/images/chrome-json-view-plugin.jpg)
+![json-view-plugin](/uploads/blog/images/chrome-json-view-plugin.jpg)
 
 传送门
 

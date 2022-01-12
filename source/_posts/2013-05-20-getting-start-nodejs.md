@@ -10,9 +10,9 @@ categories: [前端开发]
 
 Node学习历险记采用游记的方式记录学习过程，由于文字功底弱，难免存在语句不通顺，标点错误等等一系列的语病，还望轻拍。^__^
 
-##快速开始
+## 快速开始
 
-###windows篇
+### windows篇
 
 查看系统是32bit OR 64bit，DOS命令行下输入 wmic os get osarchitecture
 
@@ -21,7 +21,7 @@ Node学习历险记采用游记的方式记录学习过程，由于文字功底�
     http://nodejs.org/download/
 
 2.下载MongoDB官方Windows可执行程序：
-    
+
     http://www.mongodb.org/downloads
 
 3.安装Node和MongoDB
@@ -32,7 +32,7 @@ Node学习历险记采用游记的方式记录学习过程，由于文字功底�
     d.添加MongoDB系统变量 //切换到其他盘符查看显示 mongo --version
     
     注：因为Node安装时默认会添加系统变量所以可全局访问，而MongoDB需手动添加系统变量。
-    
+
 4.MongoDB相关配置
 
 + 详细的官方安装与配置（英文） [传送门](http://docs.mongodb.org/manual/tutorial/install-mongodb-on-windows/)
@@ -127,9 +127,6 @@ Node学习历险记采用游记的方式记录学习过程，由于文字功底�
 
     相关类似的信息说明配置成功，客户端连接MongoDB成功，现在就可以直接操作数据库啦。
 
-
-
 至此，Node学习历险记 -《快速开始》篇到此告一段落，如有表述不正确的地方还望指正，我将及时更正。
 
 欢迎加入交流群：322794303
-

@@ -64,7 +64,7 @@ categories: [前端开发]
 1. 书写代码前, 考虑并提高样式重复使用率;
 2. 充分利用html自身属性及样式继承原理减少代码量, 比如:这儿是标题列表2011-11-11
 
-### 定义
+## 定义
 
 ul.list li{position:relative} ul.list li span{position:absolute; right:0}
 即可实现日期居右显示
@@ -107,13 +107,13 @@ ul.list li{position:relative} ul.list li span{position:absolute; right:0}
 2. css注释: 注释格式;
 3. JavaScript注释;
 
-### 开发及测试工具约定
+## 开发及测试工具约定
 
 开发环境：Sublime Text2.0（推荐） || Notepad++ || WebStorm || Dw || Crunch(Less开发工具) || Aptana || Vim
 
 *Sublime Text2.0前端安装环境请参照：[《Sublime Text搭建前端开发环境过程》](/install-sublime-text-environment);*
 
-### 工具使用原则
+## 工具使用原则
 
 1. 不可利用IDE的视图模式 '画' 代码;
 2. 不可利用IDE生成相关功能代码, 比如Dw内置的一些功能js;
@@ -121,12 +121,12 @@ ul.list li{position:relative} ul.list li span{position:absolute; right:0}
 
 测试对象：chrome浏览器、UC浏览器、QQ浏览器、百度浏览器、公司浏览器以及Android原生浏览器;
 
-### 其他规范
+## 其他规范
 
 1. 遵行标准、适应过程、写的更少、做的更多。
 2. 减小冗余代码, 书写所有人都可以看的懂的代码。
 
-### 前端规范参考
+## 前端规范参考
 
 + [yahoo前端优化性能规则](http://developer.yahoo.com/performance/rules.html)
 + [Google规范文档](https://code.google.com/p/google-styleguide/)

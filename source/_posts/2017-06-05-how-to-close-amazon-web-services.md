@@ -25,8 +25,6 @@ categories: [其他]
 
 ### 关闭服务
 
-打开页面: https://console.aws.amazon.com/billing/home#/account (这个页面最下面有提供关闭服务，不会再被收取任何费用，正常情况下直接关闭服务即可) 
+打开页面: <https://console.aws.amazon.com/billing/home#/account> (这个页面最下面有提供关闭服务，不会再被收取任何费用，正常情况下直接关闭服务即可)
 
 ```注：如果开通的不是基础服务则需要先取消相关服务，点击“Cancel Services,” 下面的“Click Here”，点击“Change Plan”，选择“Basic Support” 然后点击“Change Plan”，保存后关闭服务即可```
-
-

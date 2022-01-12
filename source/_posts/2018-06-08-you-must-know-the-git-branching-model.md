@@ -65,29 +65,29 @@ Git(读音为/gɪt/。)是一个开源的分布式版本控制系统，可以有
 
 *集中式工作流（Centralized）*是以中央仓库作为项目所有修改的单点实体。所有新功能的开发都是基于一个叫*master*分支进行。
 
-![diagram 00](http://cdn.hxrealm.com/uploads/blog/images/00.svg)
+![diagram 00](/uploads/blog/images/00.svg)
 
 举个例子：
 
 1、小明开始开发新功能
 
-![diagram 01](http://cdn.hxrealm.com/uploads/blog/images/01.svg)
+![diagram 01](/uploads/blog/images/01.svg)
 
 2、小红开始开发新功能
 
-![diagram 02](http://cdn.hxrealm.com/uploads/blog/images/02.svg)
+![diagram 02](/uploads/blog/images/02.svg)
 
 3、小明完成新功能开发，并提交到master分支
 
-![diagram 03](http://cdn.hxrealm.com/uploads/blog/images/03.svg)
+![diagram 03](/uploads/blog/images/03.svg)
 
 4、小红完成新功能开发，并提交到master分支，此时提示与小明的内容产生冲突，小红提交不了代码，现在很苦恼！
 
-![diagram 04](http://cdn.hxrealm.com/uploads/blog/images/04.svg)
+![diagram 04](/uploads/blog/images/04.svg)
 
 5、小强发现并及时的帮助小红*rebase*了本地的*master*分支获取了最新代码
 
-![diagram 05](http://cdn.hxrealm.com/uploads/blog/images/05.svg)
+![diagram 05](/uploads/blog/images/05.svg)
 
 ```bash
 git pull --rebase origin master
@@ -95,7 +95,7 @@ git pull --rebase origin master
 
 6、在小强的帮助下，小红也可以提交新功能开发到master分支
 
-![diagram 06](http://cdn.hxrealm.com/uploads/blog/images/06.svg)
+![diagram 06](/uploads/blog/images/06.svg)
 
 ```bash
 git push origin master
@@ -127,7 +127,7 @@ git checkout -b new-feature master
 
 小红创建一个新分支
 
-![diagram 07](http://cdn.hxrealm.com/uploads/blog/images/07.svg)
+![diagram 07](/uploads/blog/images/07.svg)
 
 ```bash
 git checkout -b xh-feature master
@@ -135,7 +135,7 @@ git checkout -b xh-feature master
 
 中午到了，小红提交了本地的修改信息并通知到小强后去吃午饭
 
-![diagram 08](http://cdn.hxrealm.com/uploads/blog/images/08.svg)
+![diagram 08](/uploads/blog/images/08.svg)
 
 ```bash
 git add .
@@ -145,7 +145,7 @@ git push origin xh-feature
 
 午饭过后，小红合并了新分支到master并提交至远程仓库
 
-![diagram 09](http://cdn.hxrealm.com/uploads/blog/images/09.svg)
+![diagram 09](/uploads/blog/images/09.svg)
 
 ```bash
 git checkout master
@@ -155,11 +155,11 @@ git push origin master
 
 下午小强获取小红的代码后发现其开发的功能需求不对，通知小红更新
 
-![diagram 09](http://cdn.hxrealm.com/uploads/blog/images/10.svg)
+![diagram 09](/uploads/blog/images/10.svg)
 
 小红重新修改功能需求后，提交修改并发布
 
-![diagram 11](http://cdn.hxrealm.com/uploads/blog/images/11.svg)
+![diagram 11](/uploads/blog/images/11.svg)
 
 ### Fork工作流
 
@@ -169,7 +169,7 @@ git push origin master
 
 Git Flow 工作流仍然用中央仓库作为所有开发者的交互中心。和其它的工作流一样，开发者在本地工作并push分支到要中央仓库中。
 
-![diagram 12](http://cdn.hxrealm.com/uploads/blog/images/12.svg)
+![diagram 12](/uploads/blog/images/12.svg)
 
 Git Flow工作流使用2个分支来记录项目的历史。master分支存储了正式发布的历史，而develop分支作为功能的集成分支。这样也方便master分支上的所有提交分配一个版本号。
 
@@ -239,7 +239,7 @@ git-flow 是一个git扩展集，按 Vincent Driessen 的分支模型提供高�
 
 基本命令用法
 
-![git-flow](http://cdn.hxrealm.com/uploads/blog/images/WX20180605-161132@2x.png)
+![git-flow](/uploads/blog/images/WX20180605-161132@2x.png)
 
 简单实例：
 
