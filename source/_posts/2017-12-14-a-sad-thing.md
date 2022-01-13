@@ -2,8 +2,7 @@
 layout: post
 title: 一件令人痛心的事
 date: 2017-12-14 22:00
-comments: true
-categories: [神]
+categories: [生活动态]
 ---
 
 朋友圈中第一眼看到那熟悉的名字(欧某某)后我详细的看完了[那篇文章](http://tech.sina.com.cn/i/2017-12-15/doc-ifypsqiz9812858.shtml)，令我非常震惊同时瞬间心里感觉很失落！想想就特别的难过，一位这么好朋友真的走了T_T！

@@ -3,7 +3,7 @@ layout: post
 title: 金立招聘移动前端开发工程师（长期有效）
 date: 2013-06-10 18:50
 comments: true
-categories: [工作与生活]
+categories: [技术人生]
 ---
 
 工作内容与职责：

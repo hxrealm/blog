@@ -3,7 +3,7 @@ layout: post
 title: 前端开发环境（ST2）搭建过程
 date: 2013-04-10 14:47
 comments: true
-categories: [前端开发]
+categories: [前端技术]
 ---
 
 **Sublime Text 2（简称：ST2）**是一个实用又好用的编辑器，以其体积小、响应快、功能齐全、操作便捷、插件丰富、跨平台等特性，被前端人员的推崇为神器。

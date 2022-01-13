@@ -3,7 +3,7 @@ layout: post
 title: 前端开发工具之Sublime Text的常用插件
 date: 2016-04-20 20:10
 comments: true
-categories: [前端开发]
+categories: [前端技术]
 ---
 
 sublime text 常用插件

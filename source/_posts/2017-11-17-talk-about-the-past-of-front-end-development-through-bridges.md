@@ -3,7 +3,7 @@ layout: post
 title: 以“桥”的视角来聊聊前端开发模式的变迁
 date: 2017-11-17 22:20
 comments: true
-categories: [前端开发]
+categories: [前端技术]
 ---
 
 ![伦敦塔楼](/images/uploads/36c76caeee6e4ca01d7c6eb51a2cdd92.jpg)

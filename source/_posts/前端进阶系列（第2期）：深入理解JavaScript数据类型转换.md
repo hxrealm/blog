@@ -1,12 +1,10 @@
 ---
 title: 前端进阶系列（第2期）：深入理解JavaScript数据类型转换
-author: Alan Yi
+
 tags:
   - javascript
-  - 数据类型转换
-  - 隐式转换
 categories:
-  - 前端进阶
+  - 前端技术
 date: 2019-01-28 21:35:00
 ---
 

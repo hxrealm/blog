@@ -3,7 +3,7 @@ layout: post
 title: MAC OS X 10.10.1下安装php扩展
 date: 2015-03-09 22:41
 comments: true
-categories: [服务器]
+categories: [后端技术]
 ---
 
 年后开发环境从ubuntu 14.0.4迁移到MAC OS X 10.10.1 Yosemite版本，本以为ubuntu中编译过的php扩展可以直接拷贝使用，其实是我“想多了”。除了常见的*unix系统的基本操作相同外，还是存在很大的差异。现记录一下mac os下如何安装php扩展，以便后面查阅。

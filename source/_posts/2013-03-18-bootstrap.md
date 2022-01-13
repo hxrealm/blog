@@ -3,7 +3,7 @@ layout: post
 title: 起点
 date: 2013-03-18 22:47
 comments: true
-categories: [工作与生活]
+categories: [技术人生]
 ---
 
 毕业三年有余，栖息于一线城市，在城市生活节奏的鞭笞下，让我感触颇多，生活、工作、爱情、友情都是那么的实现，勇于面对做好自己。

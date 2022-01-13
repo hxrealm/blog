@@ -2,8 +2,7 @@
 layout: post
 title: HTTP请求中GET方法传递数组问题的讲解
 date: 2017-12-29 22:16
-comments: true
-categories: [前端开发]
+categories: [前端技术]
 ---
 
 ### 背景介绍

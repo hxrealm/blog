@@ -1,9 +1,8 @@
 ---
 layout: post
 title: 2017年终总结
-comments: true
 categories:
-  - 总结
+  - 总结汇总
 date: 2018-01-02 21:18:00
 ---
 

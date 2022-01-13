@@ -3,7 +3,7 @@ layout: post
 title: nodemailer使用过程中发现的一些问题
 date: 2013-05-29 21:30
 comments: true
-categories: [前端开发]
+categories: [前端技术]
 ---
 
 ##nodemailer使用过程中发现的一些问题

@@ -3,7 +3,7 @@ layout: post
 title: Linux命令行和Shell高效率使用方法(转)
 date: 2015-02-27 16:24
 comments: true
-categories: [引用]
+categories: [后端技术]
 ---
 
 ### 快速调用history中的命令

@@ -3,7 +3,7 @@ layout: post
 title: 又一年，又一个岁月，生日快乐
 date: 2016-10-15 00:00
 comments: true
-categories: [水]
+categories: [生活动态]
 ---
 
 Today is my birthday ! Thank you for your blessing !

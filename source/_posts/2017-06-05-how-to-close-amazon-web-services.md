@@ -3,7 +3,7 @@ layout: post
 title: 注意亚马逊的AWS提供免费一年的套餐到期后扣款
 date: 2017-06-05 12:00
 comments: true
-categories: [其他]
+categories: [生活动态]
 ---
 
 

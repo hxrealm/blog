@@ -3,7 +3,7 @@ layout: post
 title: 精彩国庆，娱乐人生
 date: 2013-10-07 14:54
 comments: true
-categories: [工作与生活]
+categories: [技术人生]
 ---
 
 今年的国庆假期可以简单的概括为“精彩国庆，娱乐人生”！

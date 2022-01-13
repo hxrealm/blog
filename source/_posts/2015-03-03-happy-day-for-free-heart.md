@@ -3,7 +3,7 @@ layout: post
 title: 决择
 date: 2015-03-03 01:26
 comments: true
-categories: [工作与生活]
+categories: [技术人生]
 ---
 
 还记得在14年总结的时候提到过今年的规划，今天终于做下了这个决择，无论是否对错。

@@ -1,10 +1,9 @@
 ---
-title: 博客从Jekyll迁移到Hexo
-author: Alan Yi
+title: 博客从 Jekyll 迁移到 Hexo
 tags:
-  - 博客迁移、Jekyll、Hexo
+  - 博客迁移
 categories:
-  - 博客人生
+  - 技术人生
 date: 2018-05-31 14:47:00
 ---
 

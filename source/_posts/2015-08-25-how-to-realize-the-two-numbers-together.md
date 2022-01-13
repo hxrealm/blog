@@ -3,11 +3,8 @@ layout: post
 title: Javascript实现两个超大数字的相加
 comments: true
 categories:
-
-- javascript
-- 面试题
-tags: []
-author: Alan Yi
+- 前端技术
+tags: [javascript]
 date: 2015-08-25 00:00:00
 ---
 两个超大数字相加的实现

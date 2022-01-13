@@ -3,7 +3,7 @@ layout: post
 title: JS判断客户端是否为手机移动设备
 date: 2013-09-06 15:10
 comments: true
-categories: [前端开发]
+categories: [前端技术]
 ---
 ```javascript
     function is_mobile(){

@@ -3,7 +3,7 @@ layout: post
 title: antd 本地部署iconfont正确步骤
 date: 2017-03-24 22:48
 comments: true
-categories: [前端开发]
+categories: [前端技术]
 ---
 
 [Ant Design of React](https://ant.design/index-cn)由蚂蚁金服体验技术部出品，是基于React+Redux实现，开发和服务于企业级后台产品。

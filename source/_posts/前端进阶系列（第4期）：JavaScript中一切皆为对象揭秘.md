@@ -1,10 +1,10 @@
 ---
 title: 前端进阶系列（第4期）：JavaScript中一切皆为对象揭秘
-author: Alan Yi
+
 tags:
-  - javascript、一切皆对象
+  - javascript
 categories:
-  - 前端进阶
+  - 前端技术
 date: 2019-02-15 11:12:00
 ---
 ## 写在前面

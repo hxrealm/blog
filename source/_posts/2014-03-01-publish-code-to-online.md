@@ -3,7 +3,7 @@ layout: ppt
 title: 代码发布流程研讨会
 date: 2014-03-01 14:47
 comments: true
-categories: [工作与生活]
+categories: [技术人生]
 ---
 
 <section>

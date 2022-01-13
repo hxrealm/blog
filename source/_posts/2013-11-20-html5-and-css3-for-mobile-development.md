@@ -3,7 +3,7 @@ layout: post
 title: 移动开发总结（转）
 date: 2013-11-20 20:56
 comments: true
-categories: [引用]
+categories: [技术人生]
 ---
 
 1、低版本Android下input有CSS3动画会让输入框失去焦点，解决办法是低版本Android下去掉所有CSS3动画。

@@ -3,7 +3,7 @@ layout: post
 title: Ubuntu 12.0.4下安装Nodejs
 date: 2013-07-12 23:25
 comments: true
-categories: [前端开发]
+categories: [前端技术]
 ---
 
 ### 准备工作

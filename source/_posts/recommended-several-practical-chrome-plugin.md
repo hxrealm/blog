@@ -1,13 +1,10 @@
 ---
 title: 推荐几款实用的chrome插件
-author: Alan Yi
+
 tags:
-  - Momentum
-  - OneTab
-  - Adblock Plus
-  - chrome插件
-categories:
   - 浏览器插件
+categories:
+  - 软件工具
 date: 2018-11-13 16:45:00
 ---
 

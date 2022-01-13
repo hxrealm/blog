@@ -3,7 +3,7 @@ layout: post
 title: 2014年新金立新征程
 date: 2014-01-26 23:15
 comments: true
-categories: [工作与生活]
+categories: [技术人生]
 ---
 
 ![新金立、新征程,2014年金立集团新年联欢晚会](/files/2014/01/20140126001.jpg)

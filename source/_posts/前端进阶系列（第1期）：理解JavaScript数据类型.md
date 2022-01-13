@@ -1,11 +1,10 @@
 ---
 title: 前端进阶系列（第1期）：理解JavaScript数据类型
-author: Alan Yi
+
 tags:
   - javascript
-  - 数据类型
 categories:
-  - 前端进阶
+  - 前端技术
 date: 2019-01-27 18:31:00
 ---
 ## 写在前面

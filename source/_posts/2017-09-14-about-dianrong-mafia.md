@@ -3,7 +3,7 @@ layout: post
 title: 关于点融黑帮
 date: 2017-09-14 20:24
 comments: true
-categories: [水]
+categories: [工作动态]
 ---
 
 ### 点融黑帮是什么？

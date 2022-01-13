@@ -3,7 +3,7 @@ layout: post
 title: 从 wordpress 搬迁到 github pages
 date: 2014-01-22 23:10
 comments: true
-categories: [工作与生活]
+categories: [技术人生]
 ---
 
 一直在寻求快速发表文章的工具，于是不停的在尝试。期间尝试过win7和Ubuntu下各种Ｍarkdown 编辑预览工具， 甚至使用开发工具ST2(Sublime text 2)装 Ｍarkdown 插件来更新博客，各种尝试，各种折腾。也许是因为之前对动态站点的理解， 导致思想上一直认为 —— WordPress 或者 emlog 等是最好的博客系统没有之一的原故。

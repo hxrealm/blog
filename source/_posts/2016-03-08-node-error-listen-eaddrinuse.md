@@ -3,7 +3,7 @@ layout: post
 title: 解决node app.js关闭后显示端口占用
 date: 2016-03-08 17:20
 comments: true
-categories: [Node开发]
+categories: [前端技术]
 ---
 
 在学习Node开发过程中，经常运行程序（node app.js）时提示端口被占用，信息如下：

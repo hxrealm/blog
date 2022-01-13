@@ -3,7 +3,7 @@ layout: post
 title: 深入浅出 ES6 Promise （一）
 date: 2017-07-26 10:58
 comments: true
-categories: [前端开发]
+categories: [前端技术]
 ---
 
 最近这几年随着移动互联网的快速发展，前端的开发模式已悄悄地从多页面混合开发模式到单页面前后端分离开发模式的转变，基于MVVM模式的前端框架得到了繁荣发展。它们主要是[knockoutjs](http://knockoutjs.com/)、[reactjs](https://facebook.github.io/react/)、[angularjs](https://angular.io/)、[vuejs](https://vuejs.org/)等，其中[尤雨溪](https://baike.baidu.com/item/%E5%B0%A4%E9%9B%A8%E6%BA%AA/2281470?fr=aladdin)开发的[vuejs](https://vuejs.org/)框架在国内得到开发者的认可和支持。

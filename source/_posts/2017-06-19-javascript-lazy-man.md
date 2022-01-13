@@ -3,7 +3,7 @@ layout: post
 title: LazyMan的实现
 date: 2017-06-19 20:10
 comments: true
-categories: [前端开发]
+categories: [前端技术]
 ---
 
 LazyMan是一道javascript面试题，第一次听说LazyMan一词是与[ing70](http://www.ing70.com/)聊天中获得，本文主要是说说自己的实现思路和方法。

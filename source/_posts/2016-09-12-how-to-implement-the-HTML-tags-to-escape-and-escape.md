@@ -3,7 +3,7 @@ layout: post
 title: 如何实现HTML标签的转义和反转义
 date: 2016-09-12 15:20
 comments: false
-categories: [javascript]
+categories: [前端技术]
 ---
 
 ## 背景

@@ -3,7 +3,7 @@ layout: post
 title: 前端系列Javascript“小题大做”
 date: 2013-07-17 23:14
 comments: true
-categories: [前端开发]
+categories: [前端技术]
 ---
 
 ### 背景

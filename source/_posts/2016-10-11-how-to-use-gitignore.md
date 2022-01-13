@@ -3,7 +3,7 @@ layout: post
 title: .gitignore设置无效，不能过滤指定文件
 date: 2016-10-11 23:50
 comments: false
-categories: [版本管理]
+categories: [技术人生]
 ---
 
 通常我们都会利用.gitignore过滤一些特定的文件，例如：系统产生的文件、编译过程中产生的中间文件以及特定的脚本文件（```.idea```、```.DS_store```、```node_modules```、```xx.sh```）等等，这些文件不需要被追踪管理。

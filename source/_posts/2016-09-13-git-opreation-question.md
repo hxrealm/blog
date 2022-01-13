@@ -3,7 +3,7 @@ layout: post
 title: git常用操作命令
 date: 2016-09-13 21:45
 comments: false
-categories: [版本管理]
+categories: [技术人生]
 ---
 
 ### 一、基本命令

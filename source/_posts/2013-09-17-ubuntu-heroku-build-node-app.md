@@ -3,7 +3,7 @@ layout: post
 title: Ubuntu下通过Heroku部署Node.js应用程序
 date: 2013-09-17 23:50
 comments: true
-categories: [前端开发]
+categories: [前端技术]
 ---
 
 自从写第一个Node [Microblog](https://github.com/hxrealm/microblog) web应用到现在也很长时间了，虽然后面也写了几个Node小工具，但是一直都是基于本地环境。虽然之前也有尝试在SAE、NAE(已停止维护)、BAE上部署Node应用程序，但由于种种原因，最终也只是一个尝试，没有成功部署，在此还是推荐几家PaaS平台：

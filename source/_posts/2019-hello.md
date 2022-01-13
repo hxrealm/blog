@@ -1,9 +1,9 @@
 ---
 title: 2019，你好
-author: Alan Yi
+
 tags: []
 categories:
-  - 水
+  - 总结汇总
 date: 2019-01-04 10:30:00
 ---
 

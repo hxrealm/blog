@@ -3,7 +3,7 @@ layout: post
 title: 记忆人生，勿轻意忘记
 date: 2013-09-15 20:56
 comments: true
-categories: [工作与生活]
+categories: [技术人生]
 ---
 
 你的人生，你的日子，不要放弃，不要忘记！

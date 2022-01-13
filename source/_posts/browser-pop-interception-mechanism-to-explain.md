@@ -1,14 +1,10 @@
 ---
 title: 浏览器弹窗拦截机制解剖
-author: Alan Yi
+
 tags:
-  - 浏览器
-  - 弹窗
-  - 拦截
-  - window.open
-  - ''
+  - 经验之谈
 categories:
-  - 前端开发
+  - 前端技术
 date: 2018-06-19 22:04:00
 ---
 

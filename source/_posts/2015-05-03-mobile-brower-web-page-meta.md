@@ -3,7 +3,7 @@ layout: post
 title: 移动端浏览器的私有Meta属性的整理
 date: 2015-05-03 12:05
 comments: true
-categories: [移动开发]
+categories: [前端技术]
 ---
 
 最近与浏览器客户端开发同学在探讨关于浏览器通用Web API实现方式，例如：横竖屏切换、日/夜间模式、全屏模式、页面模式等。

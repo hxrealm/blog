@@ -141,18 +141,18 @@ article:
   # Whether to show estimated article reading time
   readtime: true
   # Whether to show updated time. For "auto", shows article update time only when page.updated is set and it is different from page.date
-  update_time: true
+  update_time: false
   # Article licensing block
-  licenses:
-    Creative Commons:
-      icon: fab fa-creative-commons
-      url: "https://creativecommons.org/"
-    Attribution:
-      icon: fab fa-creative-commons-by
-      url: "https://creativecommons.org/licenses/by/4.0/"
-    Noncommercial:
-      icon: fab fa-creative-commons-nc
-      url: "https://creativecommons.org/licenses/by-nc/4.0/"
+  # licenses:
+  #   Creative Commons:
+  #     icon: fab fa-creative-commons
+  #     url: "https://creativecommons.org/"
+  #   Attribution:
+  #     icon: fab fa-creative-commons-by
+  #     url: "https://creativecommons.org/licenses/by/4.0/"
+  #   Noncommercial:
+  #     icon: fab fa-creative-commons-nc
+  #     url: "https://creativecommons.org/licenses/by-nc/4.0/"
 # Search plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Search/
 search:
@@ -167,21 +167,21 @@ search:
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 donates:
   # "Afdian.net" donate button configurations
-  - type: afdian
-    # URL to the "Afdian.net" personal page
-    url: ""
-  # Alipay donate button configurations
-  - type: alipay
-    # Alipay qrcode image URL
-    qrcode: ""
-  # "Buy me a coffee" donate button configurations
-  - type: buymeacoffee
-    # URL to the "Buy me a coffee" page
-    url: ""
-  # Patreon donate button configurations
-  - type: patreon
-    # URL to the Patreon page
-    url: ""
+  # - type: afdian
+  #   # URL to the "Afdian.net" personal page
+  #   url: ""
+  # # Alipay donate button configurations
+  # - type: alipay
+  #   # Alipay qrcode image URL
+  #   qrcode: ""
+  # # "Buy me a coffee" donate button configurations
+  # - type: buymeacoffee
+  #   # URL to the "Buy me a coffee" page
+  #   url: ""
+  # # Patreon donate button configurations
+  # - type: patreon
+  #   # URL to the Patreon page
+  #   url: ""
   # Paypal donate button configurations
   # - type: paypal
   #   # Paypal business ID or email address
@@ -189,9 +189,9 @@ donates:
   #   # Currency code
   #   currency_code: USD
   # Wechat donate button configurations
-  - type: wechat
-    # Wechat qrcode image URL
-    qrcode: ""
+  # - type: wechat
+  #   # Wechat qrcode image URL
+  #   qrcode: ""
 # Share plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
 # share:
@@ -229,7 +229,7 @@ widgets:
     # Email address for the Gravatar
     gravatar:
     # URL or path for the follow button
-    follow_link: "https://github.com/hxrealm"
+    # follow_link: "https://github.com/hxrealm"
     # Links to be shown on the bottom of the profile widget
     social_links:
       Github:
@@ -269,18 +269,19 @@ widgets:
   - # Where should the widget be placed, left sidebar or right sidebar
     position: left
     type: categories
-  # Recent posts widget configurations
-  - # Where should the widget be placed, left sidebar or right sidebar
-    position: left
-    type: recent_posts
-  # Archives widget configurations
-  - # Where should the widget be placed, left sidebar or right sidebar
-    position: left
-    type: archives
   # Tags widget configurations
   - # Where should the widget be placed, left sidebar or right sidebar
     position: left
     type: tags
+  # Recent posts widget configurations
+  - # Where should the widget be placed, left sidebar or right sidebar
+    position: left
+    type: recent_posts
+  # # Archives widget configurations
+  # - # Where should the widget be placed, left sidebar or right sidebar
+  #   position: left
+  #   type: archives
+
   # Google FeedBurner email subscription widget configurations
   # - # Where should the widget be placed, left sidebar or right sidebar
   #   position: left

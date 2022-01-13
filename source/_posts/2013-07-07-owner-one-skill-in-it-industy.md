@@ -3,7 +3,7 @@ layout: post
 title: 在IT行业获得成功，你只需一项技能(转载)
 date: 2013-07-07 21:10
 comments: true
-categories: [引用]
+categories: [技术人生]
 ---
 
 能同时使用五种编程语言（包括一种机器语言）？不是。

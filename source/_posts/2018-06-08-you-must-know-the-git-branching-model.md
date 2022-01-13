@@ -1,10 +1,9 @@
 ---
 title: 你一定知道的Git分支模型
-author: Alan Yi
 tags:
   - "Git, Git Flow, 版本控制, 版本管理"
 categories:
-  - 工具
+  - 软件工具
 date: 2018-06-06 21:57:00
 ---
 
