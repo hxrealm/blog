@@ -3,11 +3,11 @@ version: 4.0.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
-logo: /img/logo.svg
+# logo: /images/logo.png
 # Page metadata configurations
 head:
   # URL or path to the website's icon
-  favicon: /img/favicon.svg
+  favicon: /images/avatar.jpg
   # Web application manifests configuration
   # https://developer.mozilla.org/en-US/docs/Web/Manifest
   manifest:
@@ -107,8 +107,8 @@ navbar:
     Home: /
     Archives: /archives
     Categories: /categories
-    Tags: /tags
-    About: /about
+    # Tags: /tags
+    # About: /about
   # Links to be shown on the right of the navigation bar
   links:
     Download on GitHub:
@@ -217,15 +217,15 @@ widgets:
     position: left
     type: profile
     # Author name
-    author: Alan
+    author: hxrealm
     # Author title
     author_title: 前端开发
     # Author's current location
     location: 深圳
     # URL or path to the avatar image
-    avatar:
+    avatar: /images/avatar.jpg
     # Whether show the rounded avatar image
-    avatar_rounded: false
+    avatar_rounded: true
     # Email address for the Gravatar
     gravatar:
     # URL or path for the follow button
@@ -238,12 +238,12 @@ widgets:
       Facebook:
         icon: fab fa-facebook
         url: "https://facebook.com"
-      Twitter:
-        icon: fab fa-twitter
-        url: "https://twitter.com"
-      Dribbble:
-        icon: fab fa-dribbble
-        url: "https://dribbble.com"
+      # Twitter:
+      #   icon: fab fa-twitter
+      #   url: "https://twitter.com"
+      # Dribbble:
+      #   icon: fab fa-dribbble
+      #   url: "https://dribbble.com"
       RSS:
         icon: fas fa-rss
         url: /

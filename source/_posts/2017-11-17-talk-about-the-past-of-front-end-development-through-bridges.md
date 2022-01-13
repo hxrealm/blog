@@ -6,7 +6,7 @@ comments: true
 categories: [前端开发]
 ---
 
-![伦敦塔楼](/uploads/blog/images/36c76caeee6e4ca01d7c6eb51a2cdd92.jpg)
+![伦敦塔楼](/images/uploads/36c76caeee6e4ca01d7c6eb51a2cdd92.jpg)
 
 中国是桥的故乡，自古就有“桥的国度”之称,发展于隋,兴盛于宋。遍布在神州大地的桥、编织成四通八达的交通网络，连接着祖国的四面八方。
 
@@ -20,7 +20,7 @@ categories: [前端开发]
 
 ## 背景介绍
 
-近期正在参与某移动端项目的开发，其实现方案是采用Hybrid App（混合应用）开发模式，H5页面端一方面通过jsBridge与Native webview进行交互实现对应的交互效果，另一方面通过Node中间层与Backend进行交互实现对数据接口的对接（如下图所示）。***在这个过程中我们把其中的一段交互方式进行抽象化且将联结着“桥头”（Native App）和“桥尾”（H5 Webpage）的中介（jsBridge）称为“桥”。***
+近期正在参与某移动端项目的开发，其实现方案是采用 Hybrid App（混合应用）开发模式，H5 页面端一方面通过 jsBridge 与 Native webview 进行交互实现对应的交互效果，另一方面通过 Node 中间层与 Backend 进行交互实现对数据接口的对接（如下图所示）。**_在这个过程中我们把其中的一段交互方式进行抽象化且将联结着“桥头”（Native App）和“桥尾”（H5 Webpage）的中介（jsBridge）称为“桥”。_**
 
 ![架构图](/assets/pic/sample.ppt.001.png)
 
@@ -28,54 +28,54 @@ categories: [前端开发]
 
 在计算机世界里有很多这样的中介构建了无数座虚拟的“桥”，编织成四通八达的计算机信息网络，连接着各项应用程序。
 
-本文希望通过“桥”作为切入点从前端知识体系出发取其中的三个关键词ActiveX、Webkit、Android来分别代表基于IE浏览器的网页开发以及基于近标准化的前端开发和基于智能设备的全栈开发三个不同阶段的中介，然后根据它们各自的特性以及起到的联结作用，抽象化的比喻为三座具有时代色彩的“桥”来体现前端开发模式的变迁。
+本文希望通过“桥”作为切入点从前端知识体系出发取其中的三个关键词 ActiveX、Webkit、Android 来分别代表基于 IE 浏览器的网页开发以及基于近标准化的前端开发和基于智能设备的全栈开发三个不同阶段的中介，然后根据它们各自的特性以及起到的联结作用，抽象化的比喻为三座具有时代色彩的“桥”来体现前端开发模式的变迁。
 
 本篇文章适合前端开发人员、后端开发人员、客户端开发人员、产品经理、技术经理以及所有对前端开发感兴趣的小伙伴，通过阅读该文章你会了解到如下信息：
 
-- 基于IE浏览器的网页开发
+- 基于 IE 浏览器的网页开发
 - 基于近标准化的前端开发
 - 基于智能设备的全栈开发
 
-## 基于IE浏览器的网页开发
+## 基于 IE 浏览器的网页开发
 
-ActiveX是什么？
+ActiveX 是什么？
 
-[ActiveX](https://zh.wikipedia.org/wiki/ActiveX)是微软针对Internet Explorer开发的一个标准COM接口来实现对象链接与嵌入（OLE）的ActiveX控件。
+[ActiveX](https://zh.wikipedia.org/wiki/ActiveX)是微软针对 Internet Explorer 开发的一个标准 COM 接口来实现对象链接与嵌入（OLE）的 ActiveX 控件。
 
-通过ActiveX控件可以提供很多当时网页本身不能直接支持的功能，例如：安全密码框、在线预览pdf、Flash播放器、在线预览PPT等。
+通过 ActiveX 控件可以提供很多当时网页本身不能直接支持的功能，例如：安全密码框、在线预览 pdf、Flash 播放器、在线预览 PPT 等。
 
-通过对ActiveX的了解，在该阶段我们把ActiveX这个中介抽象化的比喻成“桥”，并赋予一个阶段色彩的名称“古石拱桥”。
+通过对 ActiveX 的了解，在该阶段我们把 ActiveX 这个中介抽象化的比喻成“桥”，并赋予一个阶段色彩的名称“古石拱桥”。
 
 前端开发在本阶段会产生哪些变化呢？
 
 ### 1. 开发工具
 
-Frontpage网页制作、网页三剑客（Dreamweaver、Fireworks、Flash）为本人接触或使用过的最早的前端开发工具
+Frontpage 网页制作、网页三剑客（Dreamweaver、Fireworks、Flash）为本人接触或使用过的最早的前端开发工具
 
 ### 2. 需兼容的浏览器
 
-主要是兼容IE浏览器或以IE内核为基础的第三方浏览器。
+主要是兼容 IE 浏览器或以 IE 内核为基础的第三方浏览器。
 
 ### 3. 遵行相关标准和规范
 
-- HTML4.01标准+CSS2.1规范
-- 主要采用Table布局+内联样式
-- 原生JS操作+Flash动画效果
-- 数据传递的格式主要是XML
+- HTML4.01 标准+CSS2.1 规范
+- 主要采用 Table 布局+内联样式
+- 原生 JS 操作+Flash 动画效果
+- 数据传递的格式主要是 XML
 
 该阶段前端开发主要工作是负责网页制作，因此开发人员常常会被叫做页面仔。
 
-但是该阶段后期网络环境发生了很大的变化，各项新技术得到了较快的发展，其中比较具有代表性的关键词有Web 2.0、Ajax、Json、Flash等。
+但是该阶段后期网络环境发生了很大的变化，各项新技术得到了较快的发展，其中比较具有代表性的关键词有 Web 2.0、Ajax、Json、Flash 等。
 
 ## 基于近标准化的前端开发
 
-WebKit是什么？
+WebKit 是什么？
 
 [WebKit](https://zh.wikipedia.org/wiki/WebKit)是一种用来让网页浏览器绘制网页的排版引擎，是著名的四大排版引擎之一。
 
-排版引擎主要是以Internet Explorer为代表的Trident内核、以Mozilla Firefox为代表的Gecko内核、以Opera为代表Presto内核、以Safari和Chrome为代表的WebKit内核。
+排版引擎主要是以 Internet Explorer 为代表的 Trident 内核、以 Mozilla Firefox 为代表的 Gecko 内核、以 Opera 为代表 Presto 内核、以 Safari 和 Chrome 为代表的 WebKit 内核。
 
-通过对WebKit的了解，在该阶段我们把WebKit这个中介抽象化的比喻成“桥”，并赋予一个阶段色彩的名称“现代摩天桥”。
+通过对 WebKit 的了解，在该阶段我们把 WebKit 这个中介抽象化的比喻成“桥”，并赋予一个阶段色彩的名称“现代摩天桥”。
 
 前端开发在本阶段会产生哪些变化呢？
 
@@ -99,9 +99,9 @@ WebKit是什么？
 
 ### 3. 遵行相关标准和规范
 
-- 从XHTML1.0过渡到HTML5规范
-- 从CSS2.1规范过渡到CSS3规范
-- 从支持javascript 1.5到ES6规范
+- 从 XHTML1.0 过渡到 HTML5 规范
+- 从 CSS2.1 规范过渡到 CSS3 规范
+- 从支持 javascript 1.5 到 ES6 规范
 
 ### 4. 技术与框架
 
@@ -115,8 +115,8 @@ WebKit是什么？
 
 ### 5. 其他
 
-- 正常不考虑IE低版本的兼容[IE6已死](http://www.ie6death.com/)
-- 优先采用HTML5+CSS3动画[Flash将死](http://isflashdeadyet.com/)
+- 正常不考虑 IE 低版本的兼容[IE6 已死](http://www.ie6death.com/)
+- 优先采用 HTML5+CSS3 动画[Flash 将死](http://isflashdeadyet.com/)
 
 ......
 
@@ -124,23 +124,23 @@ WebKit是什么？
 
 ## 基于智能设备的全栈开发
 
-Android是什么？
+Android 是什么？
 
-[Android](https://zh.wikipedia.org/wiki/Android)是一个基于Linux内核的开放源代码移动操作系统。其已成为全球第一大智能手机操作系统，广泛的运用于触屏移动设备。在这里我们根据大家对它的了解以及其本身的中介作用，抽象化的把称为“现代智能大桥”。
+[Android](https://zh.wikipedia.org/wiki/Android)是一个基于 Linux 内核的开放源代码移动操作系统。其已成为全球第一大智能手机操作系统，广泛的运用于触屏移动设备。在这里我们根据大家对它的了解以及其本身的中介作用，抽象化的把称为“现代智能大桥”。
 
 前端开发在本阶段会产生哪些变化呢？
 
 ### 1. 基于多平台
 
-前端开发不仅需要基于Windows系统、Linux系统、Mac系统等桌面端操作系统的网页开发，而且还需要基于Android系统、Symbian系统、iOS系统、Windows Phone（WP）系统等移动端操作系统的网页开发。
+前端开发不仅需要基于 Windows 系统、Linux 系统、Mac 系统等桌面端操作系统的网页开发，而且还需要基于 Android 系统、Symbian 系统、iOS 系统、Windows Phone（WP）系统等移动端操作系统的网页开发。
 
 ### 2. 基于多端设备
 
-前端开发不再仅仅针对桌面端进行网页开发，同时也需要针对手机端、iPad端、TV端等多端设备进行网页开发。
+前端开发不再仅仅针对桌面端进行网页开发，同时也需要针对手机端、iPad 端、TV 端等多端设备进行网页开发。
 
 ### 3. 技术与框架
 
-- HTTP 2.0协议
+- HTTP 2.0 协议
 - Web VR/AR
 - PWA
 - React Native

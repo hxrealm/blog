@@ -6,7 +6,7 @@ comments: true
 categories: [水]
 ---
 
-今天在[新网](http://www.xinnet.com/)中更新个人域名DNS解析时，无意中发现四年前上传到[Heroku](https://www.heroku.com/)云平台上的基于Node开发的[个人博客](http://node.hxrealm.com/)（旧版）仍在正常运行，WoW，真是一件令人高兴的事情。
+今天在[新网](http://www.xinnet.com/)中更新个人域名DNS解析时，无意中发现四年前上传到[Heroku](https://www.heroku.com/)云平台上的基于Node开发的[个人博客](http://node.hanyi.pro/)（旧版）仍在正常运行，WoW，真是一件令人高兴的事情。
 
 ## Heroku是什么
 

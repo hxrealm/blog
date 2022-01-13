@@ -20,7 +20,7 @@ categories: [前端开发]
     if(is_mobile() === true){
         document.write(navigator.userAgent + '<br>');
         document.write('mobile access!');
-        //location.href = "http://blog.hxrealm.com/"
+        //location.href = "http://blog.hanyi.pro/"
     } else {
         document.write(navigator.userAgent + '<br>');
         //document.write('pc access!'); 

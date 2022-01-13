@@ -21,7 +21,7 @@ html:
 
 ```html
 // 内部链接地址，本窗口跳转
-<a href="//www.hxrealm.com/blog/about">关于我</a>
+<a href="//www.hanyi.pro/blog/about">关于我</a>
 ```
 
 ```html
