@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Javascript实现两个超大数字的相加
-cover: /gallery/14.jpg
+cover: /gallery/12.jpg
 categories:
   - 前端技术
 tags: [javascript]

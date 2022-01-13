@@ -1,21 +1,22 @@
 ---
 layout: post
 title: 前端开发工具之Sublime Text的常用插件
+cover: /gallery/21.jpg
 date: 2016-04-20 20:10
-comments: true
 categories: [前端技术]
 ---
 
 sublime text 常用插件
 
+```text
 - Better CoffeeScript
-- CoffeeComplie
+- CoffeeComplier
 - DocBlockr
 - EditorConfig
 - EditorConfigSnippets
 - Emmet
 - FileHeader
-- FileSystem Autocmpletion
+- FileSystem AutoCompletion
 - HTML Snippets
 - HTML-CSS-JS Prettify
 - HTML5
@@ -25,7 +26,7 @@ sublime text 常用插件
 - Markdown Preview
 - Mongoose CoffeeScript
 - React Templates
-- ReacJs
+- ReactJs
 - Sass
 - SideBarEnhancements
 - SublimeCodeIntel
@@ -34,3 +35,4 @@ sublime text 常用插件
 - YUI Compressor
 - VUE Formatter
 - VUE Syntax Highlight
+```

@@ -3,7 +3,7 @@ layout: post
 title: 以“桥”的视角来聊聊前端开发模式的变迁
 cover: /images/uploads/36c76caeee6e4ca01d7c6eb51a2cdd92.jpg
 date: 2017-11-17 22:20
-comments: true
+
 categories: [前端技术]
 ---
 
@@ -19,11 +19,11 @@ categories: [前端技术]
 
 ## 背景介绍
 
-近期正在参与某移动端项目的开发，其实现方案是采用 Hybrid App（混合应用）开发模式，H5 页面端一方面通过 jsBridge 与 Native webview 进行交互实现对应的交互效果，另一方面通过 Node 中间层与 Backend 进行交互实现对数据接口的对接（如下图所示）。**_在这个过程中我们把其中的一段交互方式进行抽象化且将联结着“桥头”（Native App）和“桥尾”（H5 Webpage）的中介（jsBridge）称为“桥”。_**
-
-![架构图](/images/uploads/sample.ppt.001.png)
+近期正在参与某移动端项目的开发，其实现方案是采用 Hybrid App（混合应用）开发模式，H5 页面端一方面通过 jsBridge 与 Native webview 进行交互实现对应的交互效果，另一方面通过 Node 中间层与 Backend 进行交互实现对数据接口的对接（如下图所示）。**在这个过程中我们把其中的一段交互方式进行抽象化且将联结着“桥头”（Native App）和“桥尾”（H5 Webpage）的中介（jsBridge）称为“桥”。**
 
 <!--more-->
+
+![架构图](/images/uploads/sample.ppt.001.png)
 
 在计算机世界里有很多这样的中介构建了无数座虚拟的“桥”，编织成四通八达的计算机信息网络，连接着各项应用程序。
 

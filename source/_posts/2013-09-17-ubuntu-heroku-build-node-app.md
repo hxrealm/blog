@@ -2,32 +2,34 @@
 layout: post
 title: Ubuntu下通过Heroku部署Node.js应用程序
 date: 2013-09-17 23:50
-comments: true
+cover: /gallery/17.jpg
 categories: [前端技术]
 ---
 
-自从写第一个Node [Microblog](https://github.com/hxrealm/microblog) web应用到现在也很长时间了，虽然后面也写了几个Node小工具，但是一直都是基于本地环境。虽然之前也有尝试在SAE、NAE(已停止维护)、BAE上部署Node应用程序，但由于种种原因，最终也只是一个尝试，没有成功部署，在此还是推荐几家PaaS平台：
+自从写第一个 Node [Microblog](https://github.com/hxrealm/microblog) web 应用到现在也很长时间了，虽然后面也写了几个 Node 小工具，但是一直都是基于本地环境。虽然之前也有尝试在 SAE、NAE(已停止维护)、BAE 上部署 Node 应用程序，但由于种种原因，最终也只是一个尝试，没有成功部署，在此还是推荐几家 PaaS 平台：
 
-- [Heroku](https://www.heroku.com/)(信赖Git+Foreman)
-- [Cloud Foundry](http://www.cloudfoundry.com/)(依赖vmc+ruby+rubyGems)
-- [Nodester](http://nodester.com/)(被AppFog收购)
+- [Heroku](https://www.heroku.com/)(信赖 Git+Foreman)
+- [Cloud Foundry](http://www.cloudfoundry.com/)(依赖 vmc+ruby+rubyGems)
+- [Nodester](http://nodester.com/)(被 AppFog 收购)
 - [AppFog](https://www.appfog.com/)
 
-可根据自己的喜好与对PaaS不同平台的了解，选择适合的平台，本文选择Heroku来部署。
+可根据自己的喜好与对 PaaS 不同平台的了解，选择适合的平台，本文选择 Heroku 来部署。
 
-Heroku部署Node.js应用程序的步骤如下：
+<!--more-->
+
+Heroku 部署 Node.js 应用程序的步骤如下：
 
 1.访问 <https://id.heroku.com/signup/www-header> ，网站会要求用户输入电子邮件地址。
 
-2.Heroku注册，一旦成功输入电子邮件地址，网站会邀请你检查邮件，邮件中有确认链接。
+2.Heroku 注册，一旦成功输入电子邮件地址，网站会邀请你检查邮件，邮件中有确认链接。
 
-3.打开电子邮件，进入所提供的Heroku链接，点击链接会邀请你输入密码。
+3.打开电子邮件，进入所提供的 Heroku 链接，点击链接会邀请你输入密码。
 
-4.按照 <https://devcenter.heroku.com/articles/getting-started-with-nodejs> 中的指南，首先安装Heroku工具条。它提供了能让我们将站点部署到Heroku的命令行工具。
+4.按照 <https://devcenter.heroku.com/articles/getting-started-with-nodejs> 中的指南，首先安装 Heroku 工具条。它提供了能让我们将站点部署到 Heroku 的命令行工具。
 
 5.访问 <https://toolbelt.heroku.com/> ，选择适用于自己平台的安装方式，这里我选择的是 Debian/Ubuntu。
 
-安装Heroku命令行工具
+安装 Heroku 命令行工具
 
 6.Heroku toolbelt 安装完成后，现在就可以登录账号，在命令行模式下输入
 
@@ -43,7 +45,7 @@ Heroku部署Node.js应用程序的步骤如下：
     Generating new SSH public key.
     Uploading ssh public key ~/.ssh/id_rsa.pub
 
-7.至此，Heroku 环境配置己完成，可以准备部署到Heroku服务器啦！
+7.至此，Heroku 环境配置己完成，可以准备部署到 Heroku 服务器啦！
 
 8.检查程序入口文件中服务器端口设置是否正确。
 
@@ -52,7 +54,7 @@ Heroku部署Node.js应用程序的步骤如下：
     //由于heroku会随机分配端口，因此不用指定固定端口
     app.listen(port);
 
-9.Heroku的进程管理工具Foreman需要通过Procfile文件来声明应该默认启动的文件，因此需在应用程序根目录添加一个名为Procfile的文件，如下所示：
+9.Heroku 的进程管理工具 Foreman 需要通过 Procfile 文件来声明应该默认启动的文件，因此需在应用程序根目录添加一个名为 Procfile 的文件，如下所示：
 
     //进入应用程序根目录，声明启动的文件
     $ echo "web: node app.js" > Procfile
@@ -61,7 +63,7 @@ Heroku部署Node.js应用程序的步骤如下：
     14:06:24 web.1  | started with pid 5105
     14:06:26 web.1  | Express server listening on port 5000
 
-10.Foreman启动成功后，可以通过本地访问应用程序，最现只差上传应用程序到Heroku。
+10.Foreman 启动成功后，可以通过本地访问应用程序，最现只差上传应用程序到 Heroku。
 
     //在应用程序package.json文件中指定engines
     "engines": {
@@ -79,8 +81,8 @@ Heroku部署Node.js应用程序的步骤如下：
     $ heroku create nodetest --stack ceder //在heroku中建立nodetest应用
     $ git push heroku master //提交应用程序到heroku的master主干
 
-11.如果一切正常，可以通过Heroku分配的二级域名访问应用程序，例如 <http://nodetest.herokuapp.com>
-12.Heroku支持自定义域名绑定，操作如下：
+11.如果一切正常，可以通过 Heroku 分配的二级域名访问应用程序，例如 <http://nodetest.herokuapp.com>
+12.Heroku 支持自定义域名绑定，操作如下：
 
     //在以有的域名中添加子域名并指定DNS为Heroku分配的二级域名
     //以www.nodetest.com为例,添加到heroku自定域名中

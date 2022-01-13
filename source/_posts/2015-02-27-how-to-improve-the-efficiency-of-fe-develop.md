@@ -2,7 +2,7 @@
 layout: post
 title: 快速提升前端开发工作效率的总结
 date: 2015-02-27 21:39
-comments: true
+cover: /gallery/34.jpg
 categories: [前端技术]
 ---
 
@@ -16,10 +16,10 @@ categories: [前端技术]
 - 语法高亮
 - 括号匹配
 - 能快速定位
-    - 快速打开文件
-    - 在文件中查找
-    - 在文件夹中查找
-    - 跳至某一行
+  - 快速打开文件
+  - 在文件中查找
+  - 在文件夹中查找
+  - 跳至某一行
 - 能安装插件
 
 **推荐编辑器：** [SublimeText](http://www.sublimetext.com/) [Hbuilder](http://www.dcloud.io/) [Intellij IDEA](http://www.jetbrains.com/idea/)
@@ -31,12 +31,11 @@ categories: [前端技术]
 - 网络请求数据查看
 - 审查元素
 - 打断点和断点调试
-- 控制台打印log
+- 控制台打印 log
 
-**PC端推荐调试工具：** 谷歌浏览器（chrome） 火狐游览器（firefox） 苹果浏览器（safari）
+**PC 端推荐调试工具：** 谷歌浏览器（chrome） 火狐游览器（firefox） 苹果浏览器（safari）
 
-**移动端推荐调试工具：** 谷歌浏览器（chrome） 苹果浏览器（safari） weinre UC浏览器
-
+**移动端推荐调试工具：** 谷歌浏览器（chrome） 苹果浏览器（safari） weinre UC 浏览器
 
 ### 良好的前端开发辅助环境
 
@@ -46,7 +45,7 @@ categories: [前端技术]
 - [Bower](http://bower.io/) 依赖管理
 - [Grunt](http://gruntjs.com/) 前端构件工具
 - [node](http://nodejs.org) 前端工具开发和运行环境
-- [less](http://lesscss.org/) css预编译
+- [less](http://lesscss.org/) css 预编译
 
 ### 文档规范
 

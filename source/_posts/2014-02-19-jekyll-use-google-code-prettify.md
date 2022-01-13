@@ -1,48 +1,54 @@
 ---
 layout: post
-title: Jekyll中使用google-code-prettify语法高亮
+title: Jekyll中使用 google-code-prettify 语法高亮
 date: 2014-02-19 21:19
-comments: true
+cover: /gallery/29.jpg
 categories: [技术人生]
 ---
 
-之前使用wordpress时，一直都是用的 SyntaxHIghlighter 代码高亮的工具，虽然SyntaxHIghlighter 的代码高亮显示的很漂亮，无奈加载太慢，且对markdown写的文章支持的还不是很好，只能舍弃了。现在用的这个是google-code-prettfy，效果也相当不错。最重要的是，非常小，加载速度比SyntaxHighlighter快得多，而且，可以直接使用markdown的语法去写代码。
+之前使用 wordpress 时，一直都是用的 SyntaxHIghlighter 代码高亮的工具，虽然 SyntaxHIghlighter 的代码高亮显示的很漂亮，无奈加载太慢，且对 markdown 写的文章支持的还不是很好，只能舍弃了。现在用的这个是 google-code-prettfy，效果也相当不错。最重要的是，非常小，加载速度比 SyntaxHighlighter 快得多，而且，可以直接使用 markdown 的语法去写代码。
 
-准备工作
-Google Code Prettify下载
-主题库
-第一步：引用prettify.css和prettify.js
-将下载后的Prettify压缩文件解压到指定文件文件夹,将prettify.css和prettify.js文件放到项目文件夹下（例如：assets/theme/prettify目录）,然后打开需要引用的页面，添加如下代码：
+### 准备工作
+
+Google Code Prettify 下载
+
+### 主题库
+
+第一步：引用 prettify.css 和 prettify.js
+将下载后的 Prettify 压缩文件解压到指定文件文件夹,将 prettify.css 和 prettify.js 文件放到项目文件夹下（例如：assets/theme/prettify 目录）,然后打开需要引用的页面，添加如下代码：
 
     <link href="/assets/themes/prettify/prettify.css" rel="stylesheet" type="text/css" media="all">
     <script type="text/javascript" src="/assets/themes/prettify/prettify.js"></script>
 
-考虑到加载速度，最好将js写到文档末尾，body闭合标签之前，css写到头部
+考虑到加载速度，最好将 js 写到文档末尾，body 闭合标签之前，css 写到头部。
+
+<!--more-->
 
 第二步：高亮代码块
+
 添加以下代码，用于识别并高亮代码块
 
-```javascript
-<script type="text/javascript">
-    // 需要引入jQuery
-    $(document).ready(function() {
-        $('pre').addClass('prettyprint linenums').attr('style', 'overflow:auto');
-        prettyPrint();
-    });
-</script>
+```js
+// 需要引入jQuery
+$(document).ready(function () {
+  $("pre").addClass("prettyprint linenums").attr("style", "overflow:auto");
+  prettyPrint();
+});
 ```
 
 第三步：显示全部行号
-默认prettify只显示行号5,10,15...,可以给pre标签下的li设置以下样式
+默认 prettify 只显示行号 5,10,15...,可以给 pre 标签下的 li 设置以下样式
 
-pre li{ list-style-type: decimal; }
+```css
+pre li {
+  list-style-type: decimal;
+}
+```
+
 第四步：选择喜欢的主题样式
-打开主题库选择喜欢的主题，并复制或者下载主题样式文件，替换默认主题样式文件（prettify.css）,本文使用的主题是Desert
+打开主题库选择喜欢的主题，并复制或者下载主题样式文件，替换默认主题样式文件（prettify.css）,本文使用的主题是 Desert
 
 第五步：完成
-到此Google Code Prettify已可以正常使用了，现在可以直接用markdown的前置4空格来写代码了。
+到此 Google Code Prettify 已可以正常使用了，现在可以直接用 markdown 的前置 4 空格来写代码了。
 
-另外，如果博客中的代码块存在滚动条可以通过如下代码实现自动换行
-
-white-space:pre;white-space:pre-wrap;word-break:break-all;word-wrap:break-word;
-如在操作过程中存在任何问题，请给我留言，谢谢！
+注：如果博客中的代码块存在滚动条可以通过如下代码实现自动换行 `white-space:pre;white-space:pre-wrap;word-break:break-all;word-wrap:break-word;`。

@@ -1,5 +1,5 @@
 ---
-title: 前端进阶系列（第4期）：JavaScript中一切皆为对象揭秘
+title: 【系列】JavaScript中一切皆为对象的揭秘
 cover: /gallery/1.jpg
 thumbnail: /gallery/1.jpg
 tags:

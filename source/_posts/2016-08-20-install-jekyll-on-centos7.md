@@ -1,12 +1,13 @@
 ---
 layout: post
 title: CentOS7下安装Jekyll及配置
+cover: /gallery/37.jpg
 date: 2016-08-20 15:05
 comments: false
 categories: [后端技术]
 ---
 
-这两天购买了[linode](https://www.linode.com/)的vps,通过各种设置后成功安装了```CentOS7```操作系统，现尝试在```CentOS7```下安装并使用```Jekyll```，记录步骤和安装过程中产生的问题和解决方法。
+这两天购买了[linode](https://www.linode.com/)的 vps,通过各种设置后成功安装了`CentOS7`操作系统，现尝试在`CentOS7`下安装并使用`Jekyll`，记录步骤和安装过程中产生的问题和解决方法。
 
 ### 查看系统版本
 
@@ -28,7 +29,9 @@ cat /etc/redhat-release // CentOS Linux release 7.2.1511 (Core)
 cat /etc/centos-release // CentOS Linux release 7.2.1511 (Core)
 ```
 
-### 安装Ruby
+<!--more-->
+
+### 安装 Ruby
 
 ```bash
 yum install ruby
@@ -36,9 +39,9 @@ ruby -v // ruby 2.0.0p598 (2014-11-13) [x86_64-linux]
 gem -v // 2.0.14
 ```
 
-### 安装Jekyll
+### 安装 Jekyll
 
-通过gem安装Jekyll。因为网络问题需要将国外的镜像替换为国内的镜像（同Windows下的操作相同）
+通过 gem 安装 Jekyll。因为网络问题需要将国外的镜像替换为国内的镜像（同 Windows 下的操作相同）
 
 ```bash
 gem sources --remove https://rubygems.org/
@@ -72,7 +75,7 @@ yum install libtool automake autoconf gcc-c++ openssl-devel
 
 至此安装成功
 
-### Jekyll创建博客
+### Jekyll 创建博客
 
 ```bash
 jekyll new weblog
@@ -82,6 +85,6 @@ jekyll serve
 
 ### 参考资料
 
-+ [jekyllrb](http://jekyllrb.com/docs/home/)
-+ [Jekyll中文](http://jekyll.com.cn/)
-+ [RubyGems 镜像](https://ruby.taobao.org/)
+- [jekyllrb](http://jekyllrb.com/docs/home/)
+- [Jekyll 中文](http://jekyll.com.cn/)
+- [RubyGems 镜像](https://ruby.taobao.org/)

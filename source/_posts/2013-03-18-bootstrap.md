@@ -2,7 +2,7 @@
 layout: post
 title: 起点
 date: 2013-03-18 22:47
-comments: true
+cover: /gallery/2.jpg
 categories: [技术人生]
 ---
 

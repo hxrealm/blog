@@ -1,5 +1,5 @@
 ---
-title: "前端进阶系列（第3期）：常见的面试题 — 隐式类型转换 "
+title: "【系列】JavaScript 面试中常见的隐式类型转换"
 cover: /gallery/2.jpg
 thumbnail: /gallery/2.jpg
 tags:

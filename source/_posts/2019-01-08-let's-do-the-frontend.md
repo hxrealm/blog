@@ -1,5 +1,5 @@
 ---
-title: "“好好干前端” -- 公众号正式运营 "
+title: 个人微信公众号正式运营
 date: 2019-01-08 16:41:33
 cover: /gallery/7.jpg
 thumbnail: /gallery/7.jpg

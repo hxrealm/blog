@@ -2,7 +2,7 @@
 layout: post
 title: Ubuntu 12.0.4下安装Nodejs
 date: 2013-07-12 23:25
-comments: true
+cover: /gallery/10.jpg
 categories: [前端技术]
 ---
 
@@ -19,6 +19,8 @@ categories: [前端技术]
     git clone git://github.com/ry/node.git
 ```
 
+<!--more-->
+
 ### 安装方式（二）： 源码安装
 
 ```bash
@@ -27,7 +29,7 @@ categories: [前端技术]
     tar -zxvf node-linux-x64.tar.gz
 ```
 
-### 编译和安装Node
+### 编译和安装 Node
 
 ```bash
     cd your-node-current-folder
@@ -42,19 +44,21 @@ categories: [前端技术]
     node -v OR node -version //查看Node.js当前的版本
 ```
 
-### Node运行hello world
+### Node 运行 hello world
 
-在主文件夹创建hello.js,编辑以下文本：
+在主文件夹创建 hello.js,编辑以下文本：
 
 ```javascript
-    var http = require('http');
+var http = require("http");
 
-    http.createServer(function(req, res){  
-    res.writeHead(200, {'Content-Type': 'text/plain'});
-    res.end('Hello world!');
-    }).listen(3000,'127.0.0.1');
+http
+  .createServer(function (req, res) {
+    res.writeHead(200, { "Content-Type": "text/plain" });
+    res.end("Hello world!");
+  })
+  .listen(3000, "127.0.0.1");
 
-    console.log('Server running at http://127.0.0.1:3000/')
+console.log("Server running at http://127.0.0.1:3000/");
 ```
 
 ### 在命令行中运行

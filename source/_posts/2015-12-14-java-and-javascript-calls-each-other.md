@@ -1,16 +1,18 @@
 ---
 layout: post
-title: Java和Javascript相互调用的实例
+title: Java 和 Javascript 相互调用的实例
+cover: /gallery/32.jpg
 date: 2015-12-14 15:49
-comments: true
 categories: [前端技术]
 ---
 
-在用HTML5做跨平台应用开发时,尝尝会用到java和js方法互调的问题,对初学者而言,可能会有点难,在这里分享一些自己在实际开发过程中的用法,这里以单点登录的实现方法为例，希望对你有帮助:
+在用 HTML5 做跨平台应用开发时,尝尝会用到 java 和 js 方法互调的问题,对初学者而言,可能会有点难,在这里分享一些自己在实际开发过程中的用法,这里以单点登录的实现方法为例，希望对你有帮助。
 
-首先是java中实现JS方法并实现主动调用JS中方法:
+<!--more-->
 
-```javascript
+首先是 java 中实现 JS 方法并实现主动调用 JS 中方法:
+
+```java
     // Javascript接口类
     public class SingleLoginJSInterface {
 
@@ -25,7 +27,7 @@ categories: [前端技术]
         private static final String UNAME = "uname";
         private static final String UID = "uid";
         private static final String TOKEN = "token";
-        
+
         // Javascript接口方法
         @JavascriptInterface
         public void login() {
@@ -104,94 +106,94 @@ categories: [前端技术]
     }
 ```
 
-然后就可以在引用的js文件中直接通过window.SingleLoginJSInterface.login()来直接调用上面的login()方法了.
+然后就可以在引用的 js 文件中直接通过 window.SingleLoginJSInterface.login()来直接调用上面的 login()方法了.
 
-Javascript调用Java中的方法代码封装：
+Javascript 调用 Java 中的方法代码封装：
 
-```javascript
-    (function(){
-        var gnLocalBrowser = {
-            singleLogin: {
-                get: null,
-                support: function(){
-                    return gnLocalBrowser.support('singleLogin');
-                },
-                login: function(){
-                    if(this.support().status){
-                       this.support().name.login();
-                    }
-                },
-                callback: function(){
-                    var that = this;
-                    var param = this.getData().token;
-                    
-                    if(window.singleLoginJumpUrl){
-                        if(window.$ === Zepto || window.$ === jQuery){
-                            $.ajax({
-                                url: window.singleLoginJumpUrl,
-                                type: 'get',
-                                data: {h:param.h,n:param.n,t:param.t,v:param.v},
-                                dataType: 'json',
-                                beforeSend: function(){},
-                                success: function(data){
-                                    alert(JSON.stringify(data));
-                                    if(data.success){
-                                        window.location.reload();
-                                    }
-                                },
-                                error: function(){
-                                    alert('登陆失败，请重新登陆');
-                                }
-                            });
-                        }
-                    } else {
-                        alert('登陆成功，未检测到请求成功的URL！');
-                    }
-                },
-                middleware: function(data){ // JAVA调用JS的方法
-                    try{
-                        //alert('JSON string is :-------' + data);
-                        data = gnLocalBrowser.json2obj(data);
-                        //alert('json parse is success.');
-                    } catch(e){
-                        //alert('json format is error.')
-                        data = null;
-                    }
+```js
+(function () {
+  var gnLocalBrowser = {
+    singleLogin: {
+      get: null,
+      support: function () {
+        return gnLocalBrowser.support("singleLogin");
+      },
+      login: function () {
+        if (this.support().status) {
+          this.support().name.login();
+        }
+      },
+      callback: function () {
+        var that = this;
+        var param = this.getData().token;
 
-                    if(data && data.code === '100'){
-                        this.setData(data);
-                        this.callback();
-                    } else {
-                        this.loginFail(data);
-                    }
-                },
-                loginFail: function(data){
-                    //alert('登录异常，请重新登录！');
-                    document.title = 'hello world';
-                },
-                loginSuccess: function(){
-                    alert('登录成功！');
-                },
-                getData: function(){
-                    return this.userData;
-                },
-                setData: function(data){
-                    this.userData = data;
-                },
-            },
-            json2obj: function(json){
-                return JSON.parse(json);
-            },
-            support: function(name){
-                var classMaps = {
-                    'singleLogin': 'SingleLoginJSInterface',
-                };
-                var status = window[classMaps[name]] !== undefined ? true : false;
-                return {'status': status, 'name': window[classMaps[name]]};
-            }
-        };
+        if (window.singleLoginJumpUrl) {
+          if (window.$ === Zepto || window.$ === jQuery) {
+            $.ajax({
+              url: window.singleLoginJumpUrl,
+              type: "get",
+              data: { h: param.h, n: param.n, t: param.t, v: param.v },
+              dataType: "json",
+              beforeSend: function () {},
+              success: function (data) {
+                alert(JSON.stringify(data));
+                if (data.success) {
+                  window.location.reload();
+                }
+              },
+              error: function () {
+                alert("登陆失败，请重新登陆");
+              },
+            });
+          }
+        } else {
+          alert("登陆成功，未检测到请求成功的URL！");
+        }
+      },
+      middleware: function (data) {
+        // JAVA调用JS的方法
+        try {
+          //alert('JSON string is :-------' + data);
+          data = gnLocalBrowser.json2obj(data);
+          //alert('json parse is success.');
+        } catch (e) {
+          //alert('json format is error.')
+          data = null;
+        }
 
-        window.GNBrowser = gnLocalBrowser;
+        if (data && data.code === "100") {
+          this.setData(data);
+          this.callback();
+        } else {
+          this.loginFail(data);
+        }
+      },
+      loginFail: function (data) {
+        //alert('登录异常，请重新登录！');
+        document.title = "hello world";
+      },
+      loginSuccess: function () {
+        alert("登录成功！");
+      },
+      getData: function () {
+        return this.userData;
+      },
+      setData: function (data) {
+        this.userData = data;
+      },
+    },
+    json2obj: function (json) {
+      return JSON.parse(json);
+    },
+    support: function (name) {
+      var classMaps = {
+        singleLogin: "SingleLoginJSInterface",
+      };
+      var status = window[classMaps[name]] !== undefined ? true : false;
+      return { status: status, name: window[classMaps[name]] };
+    },
+  };
 
-    })();
+  window.GNBrowser = gnLocalBrowser;
+})();
 ```

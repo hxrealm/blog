@@ -1,5 +1,5 @@
 ---
-title: 前端进阶系列（第1期）：理解JavaScript数据类型
+title: 【系列】如何正确的理解 JavaScript 数据类型
 cover: /gallery/4.jpg
 thumbnail: /gallery/4.jpg
 tags:

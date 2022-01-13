@@ -1,5 +1,5 @@
 ---
-title: 前端进阶系列（第2期）：深入理解JavaScript数据类型转换
+title: 【系列】深入理解 JavaScript 数据类型转换
 cover: /gallery/3.jpg
 thumbnail: /gallery/3.jpg
 tags:
@@ -22,6 +22,8 @@ date: 2019-01-28 21:35:00
 ## toString()
 
 toString() 方法返回一个表示该对象的字符串。
+
+<!--more-->
 
 ```js
 // 数字转字符串
@@ -54,8 +56,6 @@ Function.toString()(
   }
 ).toString(); // 'function () { return 1; }'
 ```
-
-<!--more-->
 
 ## valueOf()
 

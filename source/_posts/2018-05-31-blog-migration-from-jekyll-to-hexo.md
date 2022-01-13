@@ -32,6 +32,8 @@ hexo server
 new_post_name: :year-:month-:day-:title.md
 ```
 
+<!--more-->
+
 ## 主题
 
 项目初始化时默认采用*landscape*的主题，由于时间的关系我直接从官方[主题库](https://hexo.io/themes/)中选择了一款简约风格的[hexo-theme-Anatole](http://anatole.munen.cc/)主题。
@@ -41,8 +43,6 @@ new_post_name: :year-:month-:day-:title.md
 ```text
 theme: hexo-theme-Anatole
 ```
-
-<!--more-->
 
 ## 部署
 

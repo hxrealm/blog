@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Javascript给window.onscroll事件不执行</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
+<meta name="apple-touch-fullscreen" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="format-detection" content="telephone=no" />
+<style type="text/css">
+    .ui-app{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        overflow: auto;
+        overflow-x: hidden;
+        -webkit-overflow-scrolling: touch;
+    }
+    .ui-page{
+        width:800px; height: 700px; margin: 0 auto;
+    }
+    .ui-page p{
+        background: #FAFBE1; padding: 20px; line-height: 1.5; color: #B3AAAA; 
+    }
+</style>
+</head>
+<body>
+<div id="J_mainApp" class="ui-app">
+    <div class="ui-page">
+        <p>Chrome浏览器中打开开发者调试工具，然后滚动页面，若调试工具中console面板没有输出running，说明window.onscroll没有执行！</p>
+        <button id="btn">点击我，滚动可执行</button>
+    </div>
+</div>
+<script type="text/javascript">    
+    window.onload = function(){
+        var btn = document.getElementById('btn');
+        var app = document.getElementById('J_mainApp');
+        var count = 0;
+
+        btn.onclick = function(){
+            count = 1;
+            app.style.overflow = 'inherit';
+        }
+
+        window.onscroll = function(){
+            if(count == 1){
+                alert('scrolling');
+            }
+            count++;
+            console.log('running');
+        }
+    }
+</script>
+</body>
+</html>

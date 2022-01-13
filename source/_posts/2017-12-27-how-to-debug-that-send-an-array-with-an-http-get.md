@@ -8,12 +8,12 @@ categories: [前端技术]
 
 ### 背景介绍
 
-在某前后端分离的项目中有一个根据用户的选择（可多选）查询相关记录的需求，后端接口由 Backend(java)提供。接口格式类似如**http://www.domain.com/query?checked=1&checked=2&checked=3**，可知其中 QueryString 的参数为 checked=1&checked=2&checked=3。前端为了实现需求将该字段的 key 定义为 checked，value 定义为 1&cheked=2&checked=3 的字符串，生成**{checked: "1&checked=2&checked=3"}**的一个对象做为参数，验证结果发现后端不能正常接收到 checked<List>的参数。
+在某前后端分离的项目中有一个根据用户的选择（可多选）查询相关记录的需求，后端接口由 Backend(java)提供。接口格式类似如`http://www.domain.com/query?checked=1&checked=2&checked=3`，可知其中 QueryString 的参数为 checked=1&checked=2&checked=3。前端为了实现需求将该字段的 key 定义为 checked，value 定义为 1&checked=2&checked=3 的字符串，生成`{checked: "1&checked=2&checked=3"}`一个对象做为参数，验证结果发现后端不能正常接收到 checked 的参数。
 
 ### 关键要点
 
 - 前后端分离的项目采用了接口代理（request、http proxy）
-- Backend 接口中定义 checked 为一个枚举类型 (checked<List>)
+- Backend 接口中定义 checked 为一个枚举类型 (checked)
 - 前端数据对象中 key 不要相同，因此只能采用字符串方式
 
 ### 过程分析
@@ -29,13 +29,13 @@ categories: [前端技术]
 2、检验接口代理层收到 GET 请求参数值
 
 ```text
-通过断点调试查看接口代理层接收到的GET请求参数值为checked=1&checked=2&checked=3
+通过断点调试查看接口代理层接收到的GET请求参数值为 checked=1&checked=2&checked=3
 ```
 
 3、检验接口代理层发送时 GET 请求参数值
 
 ```text
-通过断点调试查看接口代理层发送时GET请求参数值变为checked[0]=1&checked[1]=2&checked[2]=3
+通过断点调试查看接口代理层发送时GET请求参数值变为 checked[0]=1&checked[1]=2&checked[2]=3
 ```
 
 4、检验后端接收 GET 请求参数值
