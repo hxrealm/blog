@@ -1,12 +1,11 @@
 ---
 layout: post
 title: 以“桥”的视角来聊聊前端开发模式的变迁
+cover: /images/uploads/36c76caeee6e4ca01d7c6eb51a2cdd92.jpg
 date: 2017-11-17 22:20
 comments: true
 categories: [前端技术]
 ---
-
-![伦敦塔楼](/images/uploads/36c76caeee6e4ca01d7c6eb51a2cdd92.jpg)
 
 中国是桥的故乡，自古就有“桥的国度”之称,发展于隋,兴盛于宋。遍布在神州大地的桥、编织成四通八达的交通网络，连接着祖国的四面八方。
 

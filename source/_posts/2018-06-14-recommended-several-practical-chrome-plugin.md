@@ -1,6 +1,7 @@
 ---
 title: 推荐几款实用的chrome插件
-
+cover: /gallery/5.jpg
+thumbnail: /gallery/5.jpg
 tags:
   - 浏览器插件
 categories:

@@ -1,5 +1,5 @@
 ---
 title: {{ title }}
-date: {{ date }}
+date: {{ date }}cover: /gallery/14.jpg
 tags:
 ---
