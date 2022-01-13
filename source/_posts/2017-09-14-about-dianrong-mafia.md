@@ -22,9 +22,9 @@ categories: [工作动态]
 
 现位于上海黄浦区8号桥4期办公区，环境舒适优雅。
 
-![办公室环境图片01](../assets/pic/dianrong/office-01@640.jpeg)
+![办公室环境图片01](/images/uploads/dianrong/office-01@640.jpeg)
 
-![办公室环境图片02](../assets/pic/dianrong/office-02@640.jpeg)
+![办公室环境图片02](/images/uploads/dianrong/office-02@640.jpeg)
 
 ### 点融黑帮是群什么样的人？
 
