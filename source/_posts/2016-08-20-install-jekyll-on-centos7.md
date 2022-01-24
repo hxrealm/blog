@@ -1,10 +1,12 @@
 ---
 layout: post
-title: CentOS7下安装Jekyll及配置
+title: CentOS7 下安装 Jekyll 及配置
 cover: /gallery/37.jpg
 date: 2016-08-20 15:05
-comments: false
-categories: [后端技术]
+categories: [技术随记]
+tags:
+  - CentOS
+  - Jekyll
 ---
 
 这两天购买了[linode](https://www.linode.com/)的 vps,通过各种设置后成功安装了`CentOS7`操作系统，现尝试在`CentOS7`下安装并使用`Jekyll`，记录步骤和安装过程中产生的问题和解决方法。

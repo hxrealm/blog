@@ -3,7 +3,7 @@ layout: post
 title: 四年前的旧版个人博客在 Heroku 中正常运行
 cover: /gallery/21.jpg
 date: 2017-07-22 12:38
-categories: [生活动态]
+categories: [生活随记]
 ---
 
 今天在[新网](http://www.xinnet.com/)中更新个人域名 DNS 解析时，无意中发现四年前上传到[Heroku](https://www.heroku.com/)云平台上的基于 Node 开发的[个人博客](http://node.hanyi.pro/)（旧版）仍在正常运行，WoW，真是一件令人高兴的事情。

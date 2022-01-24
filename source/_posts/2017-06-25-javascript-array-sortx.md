@@ -3,7 +3,7 @@ layout: post
 title: 字母数字排序的 sortX 的实现
 cover: /gallery/25.jpg
 date: 2017-06-25 11:10
-categories: [前端技术]
+categories: [技术随记]
 ---
 
 昨天和一个刚刚转前端的朋友聊天时，他说之前面试时有道 javascript 排序题思路不是很清楚，让我把这道题详细的讲解一下。本文主要是记录我的实现方法，欢迎大家一起讨论，如有更好的方法请给我留言。

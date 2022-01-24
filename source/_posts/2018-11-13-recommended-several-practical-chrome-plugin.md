@@ -1,11 +1,11 @@
 ---
-title: 推荐几款实用的chrome插件
+title: 推荐几款实用的 chrome 插件
 cover: /gallery/5.jpg
 thumbnail: /gallery/5.jpg
-tags:
-  - 浏览器插件
 categories:
   - 软件工具
+tags:
+  - 浏览器插件
 date: 2018-11-13 16:45:00
 ---
 

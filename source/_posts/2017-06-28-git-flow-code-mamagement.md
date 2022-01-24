@@ -3,7 +3,7 @@ layout: post
 title: Git Flow最流行的代码管理模型
 cover: /gallery/13.jpg
 date: 2017-06-28 11:20
-categories: [版本管控]
+categories: [版本管理]
 ---
 
 工作至今前前后后也用过了不少版本管理系统例如：[CVS](http://www.tortoisecvs.org/)、[SVN](https://tortoisesvn.net/)、[Mercurial](https://www.mercurial-scm.org/)、[GIT](https://git-scm.com/)等，受硬性条件和软性条件因素的影响，不同团队会选择最适合自身的版本管理系统。在这篇文章中主要是介绍互联网型团队（敏捷型团队）中最常用的研发管理体系（[gitlab](https://about.gitlab.com/) + [git](https://git-scm.com/) + [jira](https://www.atlassian.com/software/jira) or [redmine](http://www.redmine.org/)）中的代码分支管理流程 -- Git Flow 模型。

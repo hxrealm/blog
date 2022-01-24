@@ -3,10 +3,12 @@ layout: post
 title: Jekyll中使用 google-code-prettify 语法高亮
 date: 2014-02-19 21:19
 cover: /gallery/29.jpg
-categories: [技术人生]
+categories: [工作随记]
+tags: 
+  - Jekyll
 ---
 
-之前使用 wordpress 时，一直都是用的 SyntaxHIghlighter 代码高亮的工具，虽然 SyntaxHIghlighter 的代码高亮显示的很漂亮，无奈加载太慢，且对 markdown 写的文章支持的还不是很好，只能舍弃了。现在用的这个是 google-code-prettfy，效果也相当不错。最重要的是，非常小，加载速度比 SyntaxHighlighter 快得多，而且，可以直接使用 markdown 的语法去写代码。
+之前使用 wordpress 时，一直都是用的 SyntaxHIghlighter 代码高亮的工具，虽然 SyntaxHIghlighter 的代码高亮显示的很漂亮，无奈加载太慢，且对 markdown 写的文章支持的还不是很好，只能舍弃了。现在用的这个是 google-code-prettify，效果也相当不错。最重要的是，非常小，加载速度比 SyntaxHighlighter 快得多，而且，可以直接使用 markdown 的语法去写代码。
 
 ### 准备工作
 

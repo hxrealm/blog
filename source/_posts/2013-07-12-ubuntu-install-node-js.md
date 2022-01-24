@@ -3,7 +3,10 @@ layout: post
 title: Ubuntu 12.0.4 下安装 Nodejs
 date: 2013-07-12 23:25
 cover: /gallery/10.jpg
-categories: [前端技术]
+categories: [技术随记]
+tags: 
+  - Ubuntu
+  - Nodejs
 ---
 
 ### 准备工作

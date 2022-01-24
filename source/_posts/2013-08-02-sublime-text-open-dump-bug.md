@@ -3,7 +3,9 @@ layout: post
 title: ST2 打开 .scss 文件时自动生成并打开 .dump 文件的 BUG
 date: 2013-08-02 21:50
 cover: /gallery/12.jpg
-categories: [前端技术]
+categories: [技术随记]
+tags: 
+  - Sublime Text
 ---
 
 今天同事用 ST2 打开.scss 项目文件时，出现自动生成并打开一个.dump 文件，而且文件中的代码不再高度显示，分析如下：

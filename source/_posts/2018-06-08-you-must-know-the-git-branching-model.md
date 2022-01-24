@@ -1,10 +1,12 @@
 ---
 title: 你一定知道的 Git 分支模型
 cover: /gallery/11.jpg
-tags:
-  - "Git, GitFlow, 版本管理"
 categories:
   - 软件工具
+tags:
+  - Git
+  - GitFlow
+  - 版本管理
 date: 2018-06-08 21:57:00
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: Java 和 Javascript 相互调用的实例
 cover: /gallery/32.jpg
 date: 2015-12-14 15:49
-categories: [前端技术]
+categories: [技术随记]
 ---
 
 在用 HTML5 做跨平台应用开发时,尝尝会用到 java 和 js 方法互调的问题,对初学者而言,可能会有点难,在这里分享一些自己在实际开发过程中的用法,这里以单点登录的实现方法为例，希望对你有帮助。

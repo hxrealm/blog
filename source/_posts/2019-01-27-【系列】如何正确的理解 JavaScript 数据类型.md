@@ -3,9 +3,9 @@ title: 【系列】如何正确的理解 JavaScript 数据类型
 cover: /gallery/4.jpg
 thumbnail: /gallery/4.jpg
 tags:
-  - javascript
+  - javaScript
 categories:
-  - 前端技术
+  [技术随记]
 date: 2019-01-27 18:31:00
 ---
 

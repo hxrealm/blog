@@ -1,9 +1,11 @@
 ---
 layout: post
-title: Javascript实现两个超大数字的相加
+title: Javascript 实现两个超大数字的相加
 cover: /gallery/12.jpg
-categories: [前端技术]
-tags: [javascript]
+categories: [技术随记]
+tags:
+  - JavaScript
+  - 面试题
 date: 2015-08-25 00:00:00
 ---
 

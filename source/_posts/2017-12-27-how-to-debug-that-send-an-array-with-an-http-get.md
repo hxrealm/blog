@@ -3,7 +3,10 @@ layout: post
 title: HTTP 请求中 GET 方法传递数组问题的讲解
 cover: /gallery/12.jpg
 date: 2017-12-29 22:16
-categories: [前端技术]
+categories: [技术随记]
+tags: 
+ - HTTP
+ - GET 请求传参
 ---
 
 ### 背景介绍

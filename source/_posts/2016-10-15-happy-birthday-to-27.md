@@ -3,8 +3,7 @@ layout: post
 title: 又一年，又一个岁月，生日快乐
 cover: /gallery/29.jpg
 date: 2016-10-15 00:00
-
-categories: [生活动态]
+categories: [生活随记]
 ---
 
 Today is my birthday ! Thank you for your blessing !

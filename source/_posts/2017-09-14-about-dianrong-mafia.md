@@ -3,7 +3,10 @@ layout: post
 title: 关于点融黑帮
 cover: /gallery/5.jpg
 date: 2017-09-14 20:24
-categories: [工作动态]
+categories: [内推]
+tags: 
+ - 内推
+ - 招聘
 ---
 
 ### 点融黑帮是什么？

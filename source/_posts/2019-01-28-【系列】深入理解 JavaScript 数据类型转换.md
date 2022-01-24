@@ -3,9 +3,9 @@ title: 【系列】深入理解 JavaScript 数据类型转换
 cover: /gallery/3.jpg
 thumbnail: /gallery/3.jpg
 tags:
-  - javascript
+  - javaScript
 categories:
-  - 前端技术
+  [技术随记]
 date: 2019-01-28 21:35:00
 ---
 

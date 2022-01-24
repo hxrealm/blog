@@ -1,10 +1,12 @@
 ---
 title: 博客从 Jekyll 迁移到 Hexo
 cover: /gallery/12.jpg
-tags:
+categories: [工作随记]
+tags: 
   - 博客迁移
-categories:
-  - 技术人生
+  - Jekyll
+  - Hexo
+
 date: 2018-05-31 14:47:00
 ---
 

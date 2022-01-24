@@ -3,7 +3,10 @@ layout: post
 title: 记忆人生，勿轻意忘记
 date: 2013-09-15 20:56
 cover: /gallery/16.jpg
-categories: [技术人生]
+categories: [生活随记]
+tags: 
+  - 生活
+  - 感悟
 ---
 
 你的人生，你的日子，不要放弃，不要忘记！

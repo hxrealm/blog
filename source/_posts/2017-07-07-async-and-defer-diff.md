@@ -4,7 +4,7 @@ title: 再谈 async 和 defer 的区别
 cover: /gallery/12.jpg
 date: 2017-07-07 11:20
 
-categories: [前端技术]
+categories: [技术随记]
 ---
 
 我们常用的 script 标签有两个和性能、js 脚本文件下载执行相关的属性:`async`和`defer`

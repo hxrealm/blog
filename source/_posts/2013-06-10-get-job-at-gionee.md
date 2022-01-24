@@ -3,7 +3,7 @@ layout: post
 title: 【招聘】金立招聘移动前端开发工程师
 date: 2013-06-10 18:50
 cover: /gallery/7.jpg
-categories: [技术人生]
+categories: [内推]
 ---
 
 工作内容与职责：

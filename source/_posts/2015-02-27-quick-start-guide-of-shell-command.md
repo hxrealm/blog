@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Linux命令行和Shell高效率使用方法(转)
+title: Linux 命令行和 Shell 高效率使用方法(转)
 date: 2015-02-27 16:24
 cover: /gallery/35.jpg
-categories: [后端技术]
+categories: [技术随记]
 ---
 
 ### 快速调用 history 中的命令

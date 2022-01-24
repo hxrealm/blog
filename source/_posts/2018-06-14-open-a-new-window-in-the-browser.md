@@ -1,10 +1,9 @@
 ---
 title: 在浏览器新窗口中打开的几种方式
 cover: /gallery/6.jpg
+categories: [技术随记]
 tags:
   - 经验之谈
-categories:
-  - 前端技术
 date: 2018-06-14 22:03:00
 ---
 

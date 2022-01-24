@@ -3,7 +3,7 @@ layout: post
 title: h5前端开发规范文档
 date: 2013-03-20 23:13
 cover: /gallery/3.jpg
-categories: [前端技术]
+categories: [技术随记]
 ---
 
 >

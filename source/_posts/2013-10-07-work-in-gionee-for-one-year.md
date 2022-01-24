@@ -3,7 +3,9 @@ layout: post
 title: 总结在金立工作的一年
 date: 2013-10-07 21:23
 cover: /gallery/20.jpg
-categories: [技术人生]
+categories: [工作随记]
+tags: 
+  - 工作体验
 ---
 
 2012 年 9 月下旬加入金立(GiONEE),从事移动互联网 H5 研发工作。

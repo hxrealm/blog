@@ -3,7 +3,7 @@ layout: post
 title: 快速提升前端开发工作效率的总结
 date: 2015-02-27 21:39
 cover: /gallery/34.jpg
-categories: [前端技术]
+categories: [技术随记]
 ---
 
 近期在考虑团队建设以及前端小组的效率提升，故对前端开发过程中效率的提升做了个简单的总结，同时

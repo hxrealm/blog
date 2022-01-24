@@ -3,9 +3,9 @@ title: 【系列】JavaScript中一切皆为对象的揭秘
 cover: /gallery/1.jpg
 thumbnail: /gallery/1.jpg
 tags:
-  - javascript
+  - javaScript
 categories:
-  - 前端技术
+  [技术随记]
 date: 2019-02-15 11:12:00
 ---
 

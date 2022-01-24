@@ -2,8 +2,9 @@
 layout: post
 title: 2017 年终总结
 cover: /gallery/14.jpg
-categories:
-  - 总结汇总
+categories: [生活随记]
+tags: 
+ - 总结
 date: 2018-01-02 21:18:00
 ---
 

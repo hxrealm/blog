@@ -3,8 +3,7 @@ layout: post
 title: git 常用操作命令
 cover: /gallery/33.jpg
 date: 2016-09-13 21:45
-comments: false
-categories: [技术人生]
+categories: [工作随记]
 ---
 
 ### 一、基本命令

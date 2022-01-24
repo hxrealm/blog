@@ -1,9 +1,13 @@
 ---
 layout: post
-title: Ubuntu下vim安装markdown插件
+title: Ubuntu 下 Vim 安装 Markdown 插件
 date: 2013-09-18 19:38
 cover: /gallery/18.jpg
-categories: [后端技术]
+categories: [技术随记]
+tags: 
+  - Ubuntu
+  - Vim
+  - Markdown
 ---
 
 Markdown 出来也有很长时间了，网上也有很多关于 Markdown 的语法介绍以及使用说明，如果还不知道什么是 Markdown,可以查看这篇文章。写这篇文章的初衷只为了记录在 Windows 系统与 Ubuntu 系统下使用 markdown 的一些个人感受。

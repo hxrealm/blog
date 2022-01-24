@@ -3,7 +3,7 @@ layout: post
 title: 从 wordpress 搬迁到 github pages
 date: 2014-01-22 23:10
 cover: /gallery/27.jpg
-categories: [技术人生]
+categories: [工作随记]
 ---
 
 一直在寻求快速发表文章的工具，于是不停的在尝试。期间尝试过 win7 和 Ubuntu 下各种Ｍ arkdown 编辑预览工具， 甚至使用开发工具 ST2(Sublime text 2)装 Ｍ arkdown 插件来更新博客，各种尝试，各种折腾。也许是因为之前对动态站点的理解， 导致思想上一直认为 —— WordPress 或者 emlog 等是最好的博客系统没有之一的原故。

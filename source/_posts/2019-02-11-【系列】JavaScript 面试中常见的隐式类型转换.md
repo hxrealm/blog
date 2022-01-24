@@ -3,9 +3,9 @@ title: 【系列】JavaScript 面试中常见的隐式类型转换
 cover: /gallery/2.jpg
 thumbnail: /gallery/2.jpg
 tags:
-  - javascript
+  - javaScript
 categories:
-  - 前端技术
+  [技术随记]
 date: 2019-02-11 10:32:00
 ---
 

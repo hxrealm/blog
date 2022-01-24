@@ -3,7 +3,7 @@ layout: post
 title: Javascript 给 window.onscroll 事件不执行
 cover: /gallery/33.jpg
 date: 2016-01-20 17:10
-categories: [前端技术]
+categories: [技术随记]
 ---
 
 今天突然收到测试反馈线上网页滚动加载不成功。当时还有点奇怪，之前测试的时候是可以正常加载数据呢！因此决定好好排查一下原因，点击这里查看[demo](/demo/window-onscroll-nothing-to-run.html)，排查步骤如下：

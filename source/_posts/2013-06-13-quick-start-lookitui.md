@@ -3,7 +3,7 @@ layout: post
 title: lookitui 移动端的通用样式组件库
 date: 2013-06-13 19:20
 cover: /gallery/8.jpg
-categories: [前端技术]
+categories: [技术随记]
 ---
 
 lookitui 是一个移动端的通用样式组件库。为了提升协同开发的效果，采用 compass 扩展插件的方式存在。

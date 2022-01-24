@@ -3,7 +3,11 @@ layout: post
 title: Ubuntu 下通过 Heroku 部署 Node.js 应用程序
 date: 2013-09-17 23:50
 cover: /gallery/17.jpg
-categories: [经验之谈]
+categories: 工作随记
+tags: 
+  - Ubuntu 
+  - Heroku
+  - Nodejs
 ---
 
 自从写第一个 Node [Microblog](https://github.com/hxrealm/microblog) web 应用到现在也很长时间了，虽然后面也写了几个 Node 小工具，但是一直都是基于本地环境。虽然之前也有尝试在 SAE、NAE(已停止维护)、BAE 上部署 Node 应用程序，但由于种种原因，最终也只是一个尝试，没有成功部署，在此还是推荐几家 PaaS 平台：

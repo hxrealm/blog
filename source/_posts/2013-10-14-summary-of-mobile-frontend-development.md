@@ -3,7 +3,7 @@ layout: post
 title: 移动平台前端开发总结
 date: 2013-10-14 20:21
 cover: /gallery/21.jpg
-categories: [技术人生]
+categories: [工作随记]
 ---
 
 移动平台前端开发主要是指针智能手机（iphone、android）做站点适配，并非是针对普通手机开发 Wap 2.0，所以在阅读本篇文章以前，你需要对 webkit 内核的浏览器有一定的了解，需要对 HTML5 和 CSS3 有一定的了解。

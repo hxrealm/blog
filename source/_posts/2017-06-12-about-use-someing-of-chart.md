@@ -3,7 +3,7 @@ layout: post
 title: chartJs 在项目应用中的一些总结
 cover: /gallery/22.jpg
 date: 2017-06-12 22:30
-categories: [前端技术]
+categories: [技术随记]
 ---
 
 [Chart.js](http://www.chartjs.org/) 是一款流行的 javascript 图表库，基于 HTML5 Canvas 开发，具有简单、灵活、兼容主流浏览器等特性。

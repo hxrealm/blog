@@ -1,10 +1,9 @@
 ---
 title: 浏览器弹窗拦截机制解剖
 cover: /gallery/8.jpg
+categories: [技术随记]
 tags:
   - 经验之谈
-categories:
-  - 前端技术
 date: 2018-06-19 22:04:00
 ---
 
