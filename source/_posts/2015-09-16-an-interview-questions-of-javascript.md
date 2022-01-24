@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 一个Javascript面试题引发的思考
+title: 一个 Javascript 面试题引发的思考
 date: 2015-09-16 17:05
 cover: /gallery/14.jpg
 categories: [前端技术]

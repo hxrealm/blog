@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ubuntu 12.0.4下安装Nodejs
+title: Ubuntu 12.0.4 下安装 Nodejs
 date: 2013-07-12 23:25
 cover: /gallery/10.jpg
 categories: [前端技术]

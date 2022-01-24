@@ -1,6 +1,6 @@
 ---
 layout: post
-title: nodemailer使用过程中发现的一些问题
+title: nodemailer 使用过程中发现的一些问题
 date: 2013-05-29 21:30
 cover: /gallery/6.jpg
 categories: [前端技术]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 前端系列Javascript“小题大做”
+title: 前端系列 Javascript “小题大做”
 date: 2013-07-17 23:14
 cover: /gallery/11.jpg
 categories: [前端技术]

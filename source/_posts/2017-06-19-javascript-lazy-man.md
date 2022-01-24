@@ -1,6 +1,6 @@
 ---
 layout: post
-title: LazyMan的实现
+title: LazyMan 的实现
 cover: /gallery/32.jpg
 date: 2017-06-19 20:10
 categories: [前端技术]

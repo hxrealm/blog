@@ -3,7 +3,7 @@ layout: post
 title: 蜕变·WebRebuild 2013 前端年度交流盛会邀请
 date: 2013-10-17 20:17
 cover: /gallery/22.jpg
-categories: [技术人生]
+categories: [活动&会议]
 ---
 
 ![蜕变·WebRebuild 2013 前端年度交流盛会邀请](/files/2013/10/jbfuimM2CvFvuU.jpg)

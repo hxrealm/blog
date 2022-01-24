@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ST2打开.scss文件时自动生成并打开.dump文件的BUG
+title: ST2 打开 .scss 文件时自动生成并打开 .dump 文件的 BUG
 date: 2013-08-02 21:50
 cover: /gallery/12.jpg
 categories: [前端技术]

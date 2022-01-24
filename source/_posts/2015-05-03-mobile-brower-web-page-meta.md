@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 移动端浏览器的私有Meta属性的整理
+title: 移动端浏览器的私有 Meta 属性的整理
 date: 2015-05-03 12:05
 cover: /gallery/1.jpg
 categories: [前端技术]

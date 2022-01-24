@@ -3,7 +3,7 @@ layout: post
 title: Ubuntu 12.04下Sublime Text 2的详细安装与破解过程
 date: 2013-08-10 21:37
 cover: /gallery/13.jpg
-categories: [前端技术]
+categories: [经验之谈]
 ---
 
 记得之前也写过一篇文章《前端开发环境（ST2）搭建过程》，主要讲不同环境下安装的过程以及当时团队前端开发环境搭建过程（涉及到业务需求的一些组件、外部工具等等）。本篇文章意在详细讲解 Ubuntu 12.04（与版本无关）下安装破解 ST2 的过程。

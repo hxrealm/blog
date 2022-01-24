@@ -1,6 +1,6 @@
 ---
 layout: post
-title: web常见的安全问题
+title: web 常见的安全问题
 cover: /gallery/14.jpg
 date: 2017-07-22 12:38
 tags: [Web 安全]

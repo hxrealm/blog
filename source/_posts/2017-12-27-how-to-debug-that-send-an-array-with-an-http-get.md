@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HTTP请求中GET方法传递数组问题的讲解
+title: HTTP 请求中 GET 方法传递数组问题的讲解
 cover: /gallery/12.jpg
 date: 2017-12-29 22:16
 categories: [前端技术]

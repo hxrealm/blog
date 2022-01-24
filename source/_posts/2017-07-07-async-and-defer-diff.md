@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 再谈async和defer的区别
+title: 再谈 async 和 defer 的区别
 cover: /gallery/12.jpg
 date: 2017-07-07 11:20
 

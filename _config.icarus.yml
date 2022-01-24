@@ -110,21 +110,15 @@ navbar:
     # Tags: /tags
     # About: /about
   # Links to be shown on the right of the navigation bar
-  links:
-    Download on GitHub:
-      icon: fab fa-github
-      url: "https://github.com/hxrealm"
+  # links:
+  #   GitHub:
+  #     icon: fab fa-github
+  #     url: "https://github.com/hxrealm"
 # Page footer configurations
 footer:
   # Links to be shown on the right of the footer section
   links:
-    Creative Commons:
-      icon: fab fa-creative-commons
-      url: "https://creativecommons.org/"
-    Attribution 4.0 International:
-      icon: fab fa-creative-commons-by
-      url: "https://creativecommons.org/licenses/by/4.0/"
-    Download on GitHub:
+    GitHub:
       icon: fab fa-github
       url: "https://github.com/hxrealm"
 # Article related configurations
@@ -165,33 +159,33 @@ search:
 #   shortname: ""
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
-donates:
-  # "Afdian.net" donate button configurations
-  # - type: afdian
-  #   # URL to the "Afdian.net" personal page
-  #   url: ""
-  # # Alipay donate button configurations
-  # - type: alipay
-  #   # Alipay qrcode image URL
-  #   qrcode: ""
-  # # "Buy me a coffee" donate button configurations
-  # - type: buymeacoffee
-  #   # URL to the "Buy me a coffee" page
-  #   url: ""
-  # # Patreon donate button configurations
-  # - type: patreon
-  #   # URL to the Patreon page
-  #   url: ""
-  # Paypal donate button configurations
-  # - type: paypal
-  #   # Paypal business ID or email address
-  #   business: ""
-  #   # Currency code
-  #   currency_code: USD
-  # Wechat donate button configurations
-  # - type: wechat
-  #   # Wechat qrcode image URL
-  #   qrcode: ""
+# donates:
+# "Afdian.net" donate button configurations
+# - type: afdian
+#   # URL to the "Afdian.net" personal page
+#   url: ""
+# # Alipay donate button configurations
+# - type: alipay
+#   # Alipay qrcode image URL
+#   qrcode: ""
+# # "Buy me a coffee" donate button configurations
+# - type: buymeacoffee
+#   # URL to the "Buy me a coffee" page
+#   url: ""
+# # Patreon donate button configurations
+# - type: patreon
+#   # URL to the Patreon page
+#   url: ""
+# Paypal donate button configurations
+# - type: paypal
+#   # Paypal business ID or email address
+#   business: ""
+#   # Currency code
+#   currency_code: USD
+# Wechat donate button configurations
+# - type: wechat
+#   # Wechat qrcode image URL
+#   qrcode: ""
 # Share plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
 # share:
@@ -221,7 +215,7 @@ widgets:
     # Author title
     author_title: 前端开发
     # Author's current location
-    location: 深圳
+    location: 深圳 • 阿里中心
     # URL or path to the avatar image
     avatar: /images/avatar.jpg
     # Whether show the rounded avatar image
@@ -235,9 +229,6 @@ widgets:
       Github:
         icon: fab fa-github
         url: "https://github.com/hxrealm"
-      Facebook:
-        icon: fab fa-facebook
-        url: "https://facebook.com"
       # Twitter:
       #   icon: fab fa-twitter
       #   url: "https://twitter.com"
